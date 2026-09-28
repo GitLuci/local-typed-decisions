@@ -1,0 +1,9 @@
+{
+  "repo_id": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "path": "models/qwen3-4b",
+  "license": "Apache-2.0",
+  "source_url": "https://huggingface.co/Qwen/Qwen3-4B",
+  "method": "shared-prefix causal tree + candidate-token readout; no task fine-tuning",
+  "prompt_version": "decision-v1"
+}

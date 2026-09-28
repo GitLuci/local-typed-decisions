@@ -1,0 +1,41 @@
+{
+  "mode": "routed",
+  "timeout": 3600,
+  "seed": 20260925,
+  "servers": {
+    "4b": {
+      "url": "http://127.0.0.1:8791",
+      "tokenizer_path": "../models/qwen3-4b",
+      "launch": {
+        "executable": "../tools/llama-b11205-vulkan/llama-server.exe",
+        "model_path": "../models/qwen3-4b-gguf/qwen3-4b-Q8_0.gguf",
+        "gpu_layers": 99,
+        "threads": 4,
+        "startup_timeout": 120
+      }
+    },
+    "8b": {
+      "url": "http://127.0.0.1:8790",
+      "tokenizer_path": "../models/qwen3-8b",
+      "launch": {
+        "executable": "../tools/llama-b11205-vulkan/llama-server.exe",
+        "model_path": "../models/qwen3-8b-gguf/qwen3-8b-Q8_0.gguf",
+        "gpu_layers": 30,
+        "threads": 4,
+        "startup_timeout": 120
+      }
+    }
+  },
+  "routes": {
+    "numeric": "medium",
+    "sentence": "medium",
+    "factual": "slow",
+    "deterministic": "slow",
+    "sentiment": "slow",
+    "subjective_tone": "fast",
+    "robotic_style": "fast",
+    "noul_refund": "fast",
+    "score_urgency": "fast",
+    "random": "fast"
+  }
+}

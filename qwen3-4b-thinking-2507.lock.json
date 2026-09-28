@@ -1,0 +1,9 @@
+{
+  "repo_id": "Qwen/Qwen3-4B-Thinking-2507",
+  "revision": "768f209d9ea81521153ed38c47d515654e938aea",
+  "path": "models/qwen3-4b-thinking-2507",
+  "license": "Apache-2.0",
+  "source_url": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507",
+  "method": "thinker candidate; no task fine-tuning",
+  "prompt_version": "decision-v1"
+}

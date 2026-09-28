@@ -1,0 +1,62 @@
+{
+  "provenance": {
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "corpus": "examples/test-2-scenarios.jsonl",
+    "corpus_sha256": "cb9cd5be55e59db86f73b42a39cf48791bc81c8bb62bd27df27593e308b0b828",
+    "protocol": "docs/METHODOLOGY.md (test-2)",
+    "scope": "168 synthetic test-2 cases; choice with two letter assignments, noul/score as authored; no private data",
+    "probability_note": "Original normalized probabilities stored; logits are log(max(p,1e-300)).",
+    "calibration": "none; unchanged API probabilities",
+    "latency_scope": "HTTP including network"
+  },
+  "requests": 168,
+  "input_tokens": 80902,
+  "estimated_cost_usd_at_0.042_per_million": 0.003398,
+  "all": {
+    "n_labelled": 156,
+    "correct": 143,
+    "score_mae_levels": 0.041666666666666664,
+    "tv_known_distribution_mean": 0.3368055555555555
+  },
+  "domains": {
+    "factual": {
+      "n_labelled": 18,
+      "correct": 17
+    },
+    "noul_refund": {
+      "n_labelled": 24,
+      "correct": 23
+    },
+    "numeric": {
+      "n_labelled": 18,
+      "correct": 9
+    },
+    "random": {
+      "n_labelled": 0,
+      "correct": 0,
+      "tv_known_distribution_mean": 0.3368055555555555
+    },
+    "robotic_style": {
+      "n_labelled": 18,
+      "correct": 17
+    },
+    "score_urgency": {
+      "n_labelled": 24,
+      "correct": 23,
+      "score_mae_levels": 0.041666666666666664
+    },
+    "sentence": {
+      "n_labelled": 18,
+      "correct": 18
+    },
+    "sentiment": {
+      "n_labelled": 18,
+      "correct": 18
+    },
+    "subjective_tone": {
+      "n_labelled": 18,
+      "correct": 18
+    }
+  }
+}

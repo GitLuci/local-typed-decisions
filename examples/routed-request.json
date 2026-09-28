@@ -1,0 +1,35 @@
+{
+  "state": "The parcel arrived on Tuesday. The customer thanked the support team.",
+  "questions": {
+    "day": {
+      "type": "choice",
+      "instructions": "On which day did it arrive?",
+      "criteria": {
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday"
+      }
+    },
+    "tone": {
+      "type": "choice",
+      "instructions": "What is the tone?",
+      "criteria": {
+        "positive": "Positive",
+        "negative": "Negative"
+      }
+    },
+    "count": {
+      "type": "score",
+      "instructions": "How many parcels are mentioned?",
+      "criteria": [
+        "None",
+        "One",
+        "Two or more"
+      ]
+    }
+  },
+  "domains": {
+    "day": "factual",
+    "tone": "subjective_tone",
+    "count": "numeric"
+  }
+}

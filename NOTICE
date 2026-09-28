@@ -1,0 +1,12 @@
+local-typed-decisions
+Copyright 2026 The local-typed-decisions authors
+
+This product includes benchmark items derived from third-party datasets
+(Banking77, CC BY 4.0; GoEmotions, Apache-2.0). See DATA_LICENSES.md.
+
+The GGUF model files distributed separately on the Hugging Face Hub are
+quantizations of Qwen3-4B and Qwen3-8B by the Qwen team (Apache-2.0).
+
+"Jev" and "TypeSafe" are names of a third-party product and company; they are
+used only to identify the comparison baseline. This project is not affiliated
+with, endorsed by, or sponsored by TypeSafe.

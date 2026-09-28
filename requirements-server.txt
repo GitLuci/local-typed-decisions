@@ -1,0 +1,7 @@
+# Runtime HTTP/tokenizer only; no Python model weights or Torch inference.
+# Versions from requirements.lock.txt; existing research environment also works.
+fastapi==0.141.1
+httpx==0.28.1
+uvicorn==0.53.0
+transformers==5.17.0
+huggingface_hub==1.33.0

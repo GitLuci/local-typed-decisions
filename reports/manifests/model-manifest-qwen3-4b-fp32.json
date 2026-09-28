@@ -1,0 +1,62 @@
+{
+  "model": {
+    "repo_id": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "path": "models/qwen3-4b-fp32",
+    "license": "Apache-2.0",
+    "source_url": "https://huggingface.co/Qwen/Qwen3-4B",
+    "method": "shared-prefix causal tree + candidate-token readout; no task fine-tuning",
+    "prompt_version": "decision-v1",
+    "derived": "float32 copy of models/qwen3-4b (exact bf16->fp32 cast)"
+  },
+  "files": {
+    "config.json": {
+      "bytes": 754,
+      "sha256": "d3f954699a71b7f47d3d324ffdec9a3ff84a415d0fa9601657bc2c6c4a61fbaf"
+    },
+    "generation_config.json": {
+      "bytes": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+    },
+    "LICENSE": {
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    "merges.txt": {
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    "model-00001-of-00003.safetensors": {
+      "bytes": 7915781528,
+      "sha256": "8700f45afa1b8fd6da74d84811702f51a9578edafed54683c0247d46af2b7b17"
+    },
+    "model-00002-of-00003.safetensors": {
+      "bytes": 7974875640,
+      "sha256": "9f036b904ec677ab041a4cd8c6608c2404601f1218c0ea7d45a685b912a59b71"
+    },
+    "model-00003-of-00003.safetensors": {
+      "bytes": 199260720,
+      "sha256": "a7bfc3843e7a4e91ff966f751ba6d98c6519d4203f61a3ba965bd0ee36fe810d"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 33223,
+      "sha256": "f55a0b624d1bc9348797e31361525c048064dde95dc0d4d23344e977b46dcd40"
+    },
+    "README.md": {
+      "bytes": 16857,
+      "sha256": "71add1cd091c309b1cb1a6b943f2476eb2b004124b3bd1d32dcd0b24cc1abc47"
+    },
+    "tokenizer.json": {
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    "tokenizer_config.json": {
+      "bytes": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  }
+}

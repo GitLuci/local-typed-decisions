@@ -1,0 +1,19 @@
+{
+  "mode": "ultra",
+  "n_probs": 20,
+  "timeout": 3600,
+  "seed": 20260925,
+  "servers": {
+    "4b": {
+      "url": "http://127.0.0.1:8791",
+      "tokenizer_path": "../models/qwen3-4b",
+      "launch": {
+        "executable": "../tools/llama-b11205-vulkan/llama-server.exe",
+        "model_path": "../models/qwen3-4b-gguf/qwen3-4b-Q8_0.gguf",
+        "gpu_layers": 99,
+        "threads": 4,
+        "startup_timeout": 120
+      }
+    }
+  }
+}

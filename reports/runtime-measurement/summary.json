@@ -1,0 +1,83 @@
+{
+  "preregistration": "docs/RESULTS.md (runtime measurement)",
+  "steps": {
+    "ultra": {
+      "cases": 168,
+      "errors": 0,
+      "total_s": 62.4,
+      "mean_s": 0.367,
+      "median_s": 0.28,
+      "vram_peak_mb": 5237,
+      "argmax_same_as_test2": "163/168",
+      "criterion_99": false
+    },
+    "medium": {
+      "cases": 3,
+      "errors": 0,
+      "total_s": 22.8,
+      "mean_s": 7.37,
+      "median_s": 6.992,
+      "vram_peak_mb": 5240
+    },
+    "medium_alias": {
+      "cases": 3,
+      "errors": 0,
+      "total_s": 23.0,
+      "mean_s": 7.45,
+      "median_s": 7.05,
+      "vram_peak_mb": 5240
+    },
+    "fast": {
+      "cases": 168,
+      "errors": 0,
+      "total_s": 102.0,
+      "mean_s": 0.6,
+      "median_s": 0.452,
+      "vram_peak_mb": 7212,
+      "argmax_same_as_test2": "166/168",
+      "criterion_99": false
+    },
+    "slow": {
+      "cases": 3,
+      "errors": 0,
+      "total_s": 41.4,
+      "mean_s": 13.464,
+      "median_s": 11.435,
+      "vram_peak_mb": 7212
+    },
+    "routed": {
+      "cases": 168,
+      "errors": 1,
+      "total_s": 757.5,
+      "mean_s": 4.502,
+      "median_s": 0.495,
+      "vram_peak_mb": 7212,
+      "correct_156": 145,
+      "criterion_144_plus_minus_2": true,
+      "by_domain": {
+        "factual": "15/17",
+        "noul_refund": "23/24",
+        "numeric": "14/18",
+        "robotic_style": "15/18",
+        "score_urgency": "24/24",
+        "sentence": "18/18",
+        "sentiment": "18/18",
+        "subjective_tone": "18/18"
+      },
+      "model_loads": 5,
+      "s_on_requests_with_load": [
+        16.8,
+        10.7,
+        16.9,
+        10.3,
+        6.0
+      ],
+      "median_s_by_mode": {
+        "slow": 11.41,
+        "medium": 7.39,
+        "fast": 0.45
+      }
+    }
+  },
+  "note": "medium_alias: 3 cases of the former alias of `medium` (same implementation, same GGUF); the alias was removed from the runtime. Argmax agreement with test-2 is measured against predictions from llama-cpp-python 0.3.35 on CPU; the differences were traced to the engine, not the runtime (see docs/RESULTS.md)."
+}

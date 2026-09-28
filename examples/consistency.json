@@ -1,0 +1,11 @@
+{
+  "model": "local",
+  "state": "Ana's parcel is headed to Porto. Delivery is scheduled for Friday.",
+  "questions": {
+    "destination": {
+      "type": "choice",
+      "instructions": "What is the parcel's destination city?",
+      "criteria": {"porto": "Porto", "lisbon": "Lisbon", "faro": "Faro"}
+    }
+  }
+}

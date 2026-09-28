@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "repo_id": "bssgoat/local-typed-decisions",
+  "revision": "main",
+  "provenance": "reports/manifests/gguf-manifest-qwen3-{4b,8b}.json; reports/manifests/model-manifest-qwen3-{4b,8b}.json; qwen-{4b,8b}.lock.json",
+  "files": [
+    {
+      "kind": "gguf",
+      "filename": "qwen3-4b-gguf/qwen3-4b-Q8_0.gguf",
+      "path": "models/qwen3-4b-gguf/qwen3-4b-Q8_0.gguf",
+      "bytes": 4280405344,
+      "sha256": "78bea492bbdc8667db4bc7f3affcbc619d3a28b88daf212cd1334441ab6e5a70"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "config.json",
+      "path": "models/qwen3-4b/config.json",
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "bytes": 726,
+      "sha256": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "tokenizer.json",
+      "path": "models/qwen3-4b/tokenizer.json",
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "tokenizer_config.json",
+      "path": "models/qwen3-4b/tokenizer_config.json",
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "bytes": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "merges.txt",
+      "path": "models/qwen3-4b/merges.txt",
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "vocab.json",
+      "path": "models/qwen3-4b/vocab.json",
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "kind": "gguf",
+      "filename": "qwen3-8b-gguf/qwen3-8b-Q8_0.gguf",
+      "path": "models/qwen3-8b-gguf/qwen3-8b-Q8_0.gguf",
+      "bytes": 8709518720,
+      "sha256": "bc7efafeb86690a3efe8c0f9babc48a4e747cd4d9cec490c4bec1e298f446506"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "config.json",
+      "path": "models/qwen3-8b/config.json",
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "bytes": 728,
+      "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "tokenizer.json",
+      "path": "models/qwen3-8b/tokenizer.json",
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "tokenizer_config.json",
+      "path": "models/qwen3-8b/tokenizer_config.json",
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "bytes": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "merges.txt",
+      "path": "models/qwen3-8b/merges.txt",
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "kind": "tokenizer",
+      "filename": "vocab.json",
+      "path": "models/qwen3-8b/vocab.json",
+      "repo_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+ "protocol": "docs/METHODOLOGY.md (test-3 pre-registration, addenda 1-4)",
+ "sha256": {
+  "states.jsonl": "2de4e0bb3461c42d30928e58702b4aa672606005d95998e8e5bcf2ad7c2011a5",
+  "questions.jsonl": "ceef675200224d0ec30edffd52f4f90f923bd9d50b752b893b6e73cdb0d85c83",
+  "gold.jsonl": "5a9dbb80e83228c2bab74b7db8d0e5f62986c37a0f4999c32482da4485db752a",
+  "levels.jsonl": "96ed571ca6bd218bcdd88bb266b71034ad621ff60d94686a6a4243b20735e914"
+ },
+ "sources_note": "The sealed files were built from the sources below. Source files and commits belong to the unpublished development history and are not part of this repository; file names are translated descriptions. Hashes are those recorded at sealing time.",
+ "sources": {
+  "generated_states": {
+   "commit": "dafcbf368e01927f009be63b55f40cb9fe5afb79",
+   "file": "generated/states.jsonl",
+   "sha256": "46506adb725a51297303437ab307e8fbbe1d87dd17f5c8e1111bdf0338a997ab"
+  },
+  "generated_questions": {
+   "commit": "dafcbf368e01927f009be63b55f40cb9fe5afb79",
+   "file": "generated/questions.jsonl",
+   "sha256": "5706c4a8ae9d688edb395c6450d889ded731109ef37532e15439c353a90df2fc"
+  },
+  "generated_gold": {
+   "commit": "dafcbf368e01927f009be63b55f40cb9fe5afb79",
+   "file": "generated/gold.jsonl",
+   "sha256": "f73429ae83f111accad42d2face0074dfa2ba904c3b1521b7051d60edcd69430"
+  },
+  "levels_script": {
+   "commit": "dafcbf368e01927f009be63b55f40cb9fe5afb79",
+   "file": "scripts/test3_levels.py",
+   "sha256": "590416aedaf23f88738bcb392fdbdfb3b2c093edc1a6b16feaa7c8e36a8ed0fc"
+  },
+  "dataset_states": {
+   "commit": "d748adb281b4ef21d142396e106e14615ce2cd79",
+   "file": "generated/datasets-states.jsonl",
+   "sha256": "f68d3f092ba89f0a699b67ca317811cc0201b0c7b75aceab6f3e835a9b25ebef"
+  },
+  "dataset_questions": {
+   "commit": "d748adb281b4ef21d142396e106e14615ce2cd79",
+   "file": "generated/datasets-questions.jsonl",
+   "sha256": "7b12368a85804ce071385c51f683b9eba91a7ee316f0e8664cad09fca88111cc"
+  },
+  "author_a1_states": {
+   "commit": "8bffe1ae9712c9d44e5f20febaa7db626e5f0220",
+   "file": "authored/a1-states.jsonl",
+   "sha256": "89458c89c6f983b40bed69fdd518f4f9d54d3b023a39efb7e78749a0a0a960a0"
+  },
+  "author_a1_questions": {
+   "commit": "8bffe1ae9712c9d44e5f20febaa7db626e5f0220",
+   "file": "authored/a1-questions.jsonl",
+   "sha256": "99048a11d3442a5532fff797d1e0f1892c3cac366bc4359cf73edfc6146894e4"
+  },
+  "author_a2_states": {
+   "commit": "488ffda8a4bcb22c7f669e4c6b89b65d928e7230",
+   "file": "authored/a2-states.jsonl",
+   "sha256": "8cfa7e4f12fb2918fc740cf7d330dc1ab9907458f4f3fdf20851d51d6b5e5397"
+  },
+  "author_a2_questions": {
+   "commit": "488ffda8a4bcb22c7f669e4c6b89b65d928e7230",
+   "file": "authored/a2-questions.jsonl",
+   "sha256": "00c9316ce96a86367a6ca8f184811d8abd41d805bc0ac5fa6f5ed3ffa0dcaca7"
+  },
+  "author_a2_batch2_states": {
+   "commit": "56697ad4edba98890c50761bbab0bb7e80eef9fc",
+   "file": "authored/a2b-states.jsonl",
+   "sha256": "314250f947119af0bdf27b63f692175b2809a5cf3c986cb54aee3e167872933b"
+  },
+  "author_a2_batch2_questions": {
+   "commit": "56697ad4edba98890c50761bbab0bb7e80eef9fc",
+   "file": "authored/a2b-questions.jsonl",
+   "sha256": "9fb714465e2056170c622d0c453705f84791454ec64eb2fa98d1e70410f3d0f5"
+  },
+  "verifier_v": {
+   "commit": "615616d7a95498415fe91a0367334d8c94475855",
+   "file": "labels/verifier-v.jsonl",
+   "sha256": "5795d6eb943ad46b292c5d800a3460f6ba965a800cc85e5bd6a0868a8947cc01"
+  },
+  "labeler_r1": {
+   "commit": "3264ecd26695455f713cfcc6c76c2a8934a6161d",
+   "file": "labels/r1.jsonl",
+   "sha256": "d314c8308b5eced265420a5a494131354bddf9c5112e3b65d2000073eac1fac0"
+  },
+  "labeler_r1_batch2": {
+   "commit": "ab1bae7e92b963a15350bab3b27f0c3d2d27b664",
+   "file": "labels/r1-batch2.jsonl",
+   "sha256": "964b0a6f50191d0587cbd22eb721c7704da3d53a3eede64055306f95e85be843"
+  },
+  "labeler_r2": {
+   "commit": "fab73b4f6e793d6721e11053c4616a2a15dd7754",
+   "file": "labels/r2.jsonl",
+   "sha256": "75f0c333d2808db1bace4490129a3fe74cf62f140ae74f86e0b398b00230170c"
+  },
+  "labeler_r2_batch2": {
+   "commit": "c7f5ad8ce4531a7bbc18688103c92c6426b391cd",
+   "file": "labels/r2-batch2.jsonl",
+   "sha256": "5927041a3839dfb8e219798203f744cd871a6a9daa133fe5b71b263f40c61afe"
+  },
+  "adjudicator_j": {
+   "commit": "4ac418eeb8bb12e50e9bc28ef8118da764a9aba9",
+   "file": "labels/adjudication.jsonl",
+   "sha256": "2560c8019364c41a55ddda4618091981e04d0fca4ea1c6d3b7ec9928140f2e08"
+  },
+  "adjudicator_j_batch2": {
+   "commit": "4ac418eeb8bb12e50e9bc28ef8118da764a9aba9",
+   "file": "labels/adjudication-batch2.jsonl",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "blinding_key": {
+   "commit": "4ac418eeb8bb12e50e9bc28ef8118da764a9aba9",
+   "file": "labels/batch1-key/map.json",
+   "sha256": "1bac98c39ab9962844cbd8bd7f77e35a799536ed53b8d7ecaf7371e065f42443"
+  },
+  "blinding_key_batch2": {
+   "commit": "4ac418eeb8bb12e50e9bc28ef8118da764a9aba9",
+   "file": "labels/batch2-key/map.json",
+   "sha256": "85030834ab17e4bbb392b96a3c4abd31b565e8a02b29f4b5dde525d941f508d1"
+  },
+  "exclusions": {
+   "commit": "4ac418eeb8bb12e50e9bc28ef8118da764a9aba9",
+   "file": "labels/quota-and-privacy-exclusions.json",
+   "sha256": "3c0c657a64df0c2e17bd5eab4e39515f7b0d9ba46f8d049b2a51ac47bfad308f"
+  }
+ },
+ "gold_rule": "(a) generator; (b, c) R1 if R1=R2, otherwise adjudicator J; ambiguo_final: target null, outside the primary analysis",
+ "excluded": {
+  "quota": [
+   "t3-noul_refund-a2-041",
+   "t3-noul_refund-a2-042",
+   "t3-noul_refund-a2-043",
+   "t3-noul_refund-a2-044",
+   "t3-noul_refund-a2-047",
+   "t3-noul_refund-a2-050",
+   "t3-noul_refund-b77-006",
+   "t3-noul_refund-b77-008",
+   "t3-noul_refund-b77-014",
+   "t3-noul_refund-b77-016",
+   "t3-noul_refund-b77-017",
+   "t3-noul_refund-b77-023",
+   "t3-noul_refund-b77-025",
+   "t3-noul_refund-b77-028",
+   "t3-noul_refund-b77-029",
+   "t3-noul_refund-b77-030",
+   "t3-noul_refund-b77-047",
+   "t3-noul_refund-b77-054",
+   "t3-sentiment-a2-041",
+   "t3-sentiment-a2-048",
+   "t3-sentiment-a2-050",
+   "t3-sentiment-goe-007",
+   "t3-sentiment-goe-013",
+   "t3-sentiment-goe-016",
+   "t3-sentiment-goe-025",
+   "t3-sentiment-goe-034",
+   "t3-sentiment-goe-035",
+   "t3-sentiment-goe-040",
+   "t3-sentiment-goe-042",
+   "t3-sentiment-goe-048",
+   "t3-sentiment-goe-052"
+  ],
+  "privacy": [
+   "t3-sentiment-goe-027"
+  ]
+ },
+ "counts": {
+  "deterministic": {
+   "dev": {
+    "1": 4,
+    "2": 2,
+    "3": 4
+   },
+   "test": {
+    "1": 18,
+    "2": 42,
+    "3": 40
+   }
+  },
+  "factual": {
+   "dev": {
+    "1": 4,
+    "2": 2,
+    "3": 4
+   },
+   "test": {
+    "1": 18,
+    "2": 42,
+    "3": 40
+   }
+  },
+  "noul_refund": {
+   "dev": {
+    "1": 3,
+    "2": 1,
+    "3": 6
+   },
+   "test": {
+    "1": 20,
+    "2": 39,
+    "3": 41
+   }
+  },
+  "numeric": {
+   "dev": {
+    "1": 4,
+    "2": 2,
+    "3": 4
+   },
+   "test": {
+    "1": 18,
+    "2": 42,
+    "3": 40
+   }
+  },
+  "random": {
+   "test": {
+    "None": 50
+   }
+  },
+  "robotic_style": {
+   "dev": {
+    "1": 3,
+    "2": 4,
+    "3": 3
+   },
+   "test": {
+    "1": 14,
+    "2": 43,
+    "3": 43
+   }
+  },
+  "score_urgency": {
+   "dev": {
+    "1": 5,
+    "3": 5
+   },
+   "test": {
+    "1": 20,
+    "2": 39,
+    "3": 41
+   }
+  },
+  "sentence": {
+   "dev": {
+    "1": 3,
+    "2": 5,
+    "3": 2
+   },
+   "test": {
+    "1": 22,
+    "2": 35,
+    "3": 43
+   }
+  },
+  "sentiment": {
+   "dev": {
+    "1": 1,
+    "2": 3,
+    "3": 5,
+    "None": 1
+   },
+   "test": {
+    "1": 20,
+    "2": 42,
+    "3": 38,
+    "None": 3
+   }
+  },
+  "subjective_tone": {
+   "dev": {
+    "1": 4,
+    "2": 4,
+    "3": 2
+   },
+   "test": {
+    "1": 20,
+    "2": 39,
+    "3": 41
+   }
+  }
+ },
+ "totals": {
+  "states": 713,
+  "questions": 1043,
+  "test": 953,
+  "ambiguo_final": 4
+ },
+ "seal_commit": null
+}

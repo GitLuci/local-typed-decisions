@@ -1,0 +1,1043 @@
+{"id": "t3-deterministic-gen-000", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-001", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-002", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-003", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-004", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-006", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-007", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-008", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-009", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-010", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-011", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-013", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-015", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-016", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-017", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-018", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-019", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-020", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-021", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-023", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-024", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-025", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-026", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-027", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-028", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-029", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-030", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-031", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-032", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-034", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-035", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-037", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-038", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-039", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-040", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-041", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-042", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-043", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-044", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-045", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-046", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-047", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-049", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-050", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-051", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-052", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-053", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-054", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-055", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-056", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-057", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-058", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-059", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-060", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-061", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-062", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-063", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-064", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-065", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-066", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-067", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-068", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-069", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-070", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-071", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-072", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-073", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-074", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-075", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-076", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-077", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-078", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-079", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-080", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-081", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-082", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-083", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-084", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-085", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-086", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-087", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-088", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-089", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-090", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-091", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-092", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-093", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-094", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-095", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-096", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-097", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-098", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-099", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-100", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-101", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-102", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-103", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-104", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-105", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-106", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-107", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-108", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-deterministic-gen-109", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-000", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-001", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-002", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-004", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-005", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-006", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-007", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-008", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-009", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-010", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-011", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-013", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-015", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-016", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-017", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-018", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-019", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-020", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-021", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-023", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-024", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-025", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-026", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-027", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-028", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-030", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-031", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-032", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-034", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-035", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-037", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-038", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-039", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-040", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-041", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-042", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-043", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-044", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-045", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-046", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-047", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-049", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-050", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-051", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-052", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-053", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-054", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-055", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-056", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-057", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-058", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-059", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-060", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-061", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-062", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-063", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-064", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-065", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-066", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-067", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-068", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-069", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-070", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-071", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-072", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-073", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-074", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-075", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-076", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-077", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-078", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-079", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-080", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-081", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-082", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-083", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-084", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-085", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-086", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-087", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-088", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-089", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-090", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-091", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-092", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-093", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-094", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-095", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-096", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-097", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-098", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-099", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-100", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-101", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-102", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-103", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-104", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-105", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-106", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-107", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-108", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-factual-gen-109", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-001", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-002", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-004", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-006", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-007", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-008", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-009", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-010", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-015", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-016", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-017", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-018", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-021", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-023", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-024", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "pedido_interrogativo", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-025", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-026", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-027", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-028", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-030", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-031", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-032", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-034", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-035", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-037", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-038", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-039", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-040", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-045", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-046", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-049", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-051", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-052", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-053", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-054", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-055", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-201", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-202", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-203", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-204", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-205", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-206", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-207", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-208", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-209", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-210", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-211", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-212", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-213", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-214", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-215", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-216", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-217", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-a2-218", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-000", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-001", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-002", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-003", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-004", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-005", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-007", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-009", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-010", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-011", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-012", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-013", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-015", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-018", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-021", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-024", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-026", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-027", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-031", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-032", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-033", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-034", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-035", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-036", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-037", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-038", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-039", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-040", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-041", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-042", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-043", "nivel": 3, "nivel_estrutural": 1, "nivel_rotulagem": 3, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-044", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-045", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-046", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-049", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-050", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-051", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-052", "nivel": 3, "nivel_estrutural": 1, "nivel_rotulagem": 3, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-noul_refund-b77-053", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-000", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-001", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-002", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-004", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-006", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-007", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-008", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-009", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-010", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-012", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-015", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-016", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-017", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-018", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-019", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-021", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-022", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-023", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-024", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-025", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-026", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-027", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-028", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-029", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-030", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-031", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-032", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-034", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-035", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-036", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-037", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-038", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-039", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-040", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-041", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-042", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-043", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-044", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-045", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-046", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-047", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-049", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-050", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-051", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-052", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-053", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-054", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-055", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-056", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-057", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-058", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-059", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-060", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-061", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-062", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-063", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-064", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-065", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-066", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-067", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-068", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-069", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-070", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-071", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-072", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-073", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-074", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-075", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-076", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-077", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-078", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-079", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-080", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-081", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-082", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-083", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-084", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-085", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-086", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-087", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-088", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-089", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-090", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-091", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-092", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-093", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-094", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-095", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-096", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-097", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-098", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-099", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-100", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-101", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-102", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-103", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": null, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-104", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["distractor", "insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-105", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-106", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-107", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": null, "padroes_usados": ["conta_2passos", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-108", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-numeric-gen-109", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": null, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-random-gen-00", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-01", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-02", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-03", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-04", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-05", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-06", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-07", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-08", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-09", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-10", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-11", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-12", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-13", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-14", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-15", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-16", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-17", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-18", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-19", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-20", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-21", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-22", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-23", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-24", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-25", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-26", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-27", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-28", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-29", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-30", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-31", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-32", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-33", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-34", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-35", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-36", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-37", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-38", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-39", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-40", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-41", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-42", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-43", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-44", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-45", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-46", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-47", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-48", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-random-gen-49", "nivel": null, "nota": "random: sem nível"}
+{"id": "t3-robotic_style-a1-001", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-002", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-004", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-006", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-007", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-008", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-009", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-010", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 3, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-015", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-016", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-017", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-018", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-019", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-020", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-021", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-023", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-024", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-025", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-026", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-027", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-028", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-030", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-031", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-032", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-034", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-035", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-036", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-037", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-038", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-039", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-040", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-041", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-042", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-043", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-044", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-045", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-046", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-047", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-048", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-049", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-050", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-051", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-052", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-053", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-054", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-055", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-056", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-057", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-058", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-059", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-060", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-061", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-062", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-063", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-064", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-065", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-066", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-067", "nivel": 3, "nivel_estrutural": 2, "nivel_rotulagem": 3, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-068", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-069", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-070", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-071", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-072", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-073", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-074", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-075", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-076", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-077", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-078", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-079", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-080", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-081", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-082", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-083", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-084", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-085", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-086", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-087", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-088", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-089", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-090", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-091", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-092", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-093", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-094", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-095", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-096", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-097", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-098", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-099", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-100", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-101", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-102", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-103", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-104", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-105", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-106", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-107", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-108", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-109", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-robotic_style-a1-110", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-001", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-002", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-004", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-006", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-007", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-008", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-009", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-010", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-015", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-016", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-017", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-018", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-021", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-023", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-024", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-025", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-026", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-027", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-028", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-030", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-031", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["contraste", "negacao", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-032", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-033", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-034", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-035", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-037", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-038", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-039", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-040", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-041", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-042", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-043", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-044", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-045", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-046", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-047", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-049", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-050", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-051", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-052", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-053", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-054", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-055", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-056", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-057", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-058", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-059", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-060", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-061", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-062", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-063", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-064", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-065", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-066", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-067", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-068", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-069", "nivel": 3, "nivel_estrutural": 2, "nivel_rotulagem": 3, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-070", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-071", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-072", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-073", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-074", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-075", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-076", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-077", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-078", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-079", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-080", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-081", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-082", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-083", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-084", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-085", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-086", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-087", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-088", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-089", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-090", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-091", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-092", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-093", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-094", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-095", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-096", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-097", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-098", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-099", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-100", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-101", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-102", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-103", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-104", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-105", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-106", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-107", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-108", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-109", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-score_urgency-a2-110", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-001", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-002", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-004", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-006", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-007", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-008", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-009", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-010", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-015", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-016", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-017", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-018", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-021", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-023", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-024", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-025", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-026", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-027", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-028", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-030", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-031", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-032", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-034", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-035", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-037", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-038", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-039", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-040", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-041", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-042", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-043", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-044", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-045", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-046", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-047", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-048", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 3, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-049", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-050", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-051", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-052", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-053", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-054", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-055", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-056", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-057", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-058", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-059", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-060", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-061", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-062", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-063", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["negacao", "pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-064", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-065", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-066", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-067", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-068", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-069", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-070", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-071", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-072", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-073", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-074", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-075", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-076", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-077", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-078", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-079", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-080", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-081", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-082", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-083", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-084", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-085", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-086", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-087", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-088", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-089", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-090", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-091", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-092", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-093", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-094", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-095", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-096", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-097", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-098", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-099", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-100", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-101", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-102", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["pedido_interrogativo"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-103", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-104", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-105", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-106", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-107", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-108", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-109", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentence-a1-110", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-001", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-002", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-004", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-005", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 3, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-006", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-007", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-008", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-009", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-010", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-015", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-016", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-017", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-018", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-021", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-023", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-024", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-025", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-026", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-027", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-028", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-030", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-031", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-032", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-033", "nivel": 3, "nivel_estrutural": 2, "nivel_rotulagem": 3, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-034", "nivel": 3, "nivel_estrutural": 2, "nivel_rotulagem": 3, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-035", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-037", "nivel": 3, "nivel_estrutural": 2, "nivel_rotulagem": 3, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-038", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-039", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-040", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-042", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-043", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-044", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-045", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-046", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-047", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-049", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-051", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-052", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-053", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-054", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-055", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-201", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-202", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-203", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-204", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-205", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-206", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["insuficiente", "negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-207", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-208", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-209", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-210", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-211", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["negacao", "pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-212", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-213", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-214", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-215", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["distractor", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-216", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada", "sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-a2-217", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "distractor"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-000", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-001", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-002", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-003", "nivel": null, "nivel_estrutural": 2, "nivel_rotulagem": 0, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-004", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-005", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-006", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-008", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-009", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-010", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-011", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-012", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-014", "nivel": null, "nivel_estrutural": 1, "nivel_rotulagem": 0, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-015", "nivel": null, "nivel_estrutural": 2, "nivel_rotulagem": 0, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-017", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-018", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-020", "nivel": 3, "nivel_estrutural": 2, "nivel_rotulagem": 3, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-021", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-022", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-023", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-024", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-026", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-028", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-029", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-030", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-031", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-032", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-033", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["contraste", "negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-037", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-038", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-039", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-041", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-043", "nivel": 2, "nivel_estrutural": 1, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-044", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-045", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-046", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-047", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-049", "nivel": null, "nivel_estrutural": 1, "nivel_rotulagem": 0, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-050", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-051", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-053", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-sentiment-goe-054", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-001", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-002", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-003", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-004", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-005", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-006", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-007", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-008", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-009", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-010", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-011", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-012", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-013", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-014", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-015", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-016", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-017", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-018", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-019", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-020", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-021", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-022", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-023", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-024", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-025", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-026", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-027", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-028", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-029", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-030", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-031", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-032", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-033", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-034", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-035", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-036", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-037", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-038", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-039", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-040", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-041", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-042", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-043", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["distractor"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-044", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-045", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-046", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-047", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-048", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-049", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-050", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-051", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-052", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-053", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-054", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-055", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-056", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-057", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-058", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-059", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["pergunta_citada"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-060", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-061", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-062", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-063", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-064", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-065", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-066", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-067", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 3, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-068", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-069", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 2, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-070", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-071", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-072", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-073", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-074", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["contraste"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-075", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-076", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-077", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-078", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-079", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-080", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-081", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-082", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-083", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-084", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-085", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-086", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-087", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-088", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-089", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-090", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-091", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-092", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-093", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-094", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 2, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-095", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-096", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-097", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-098", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-099", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-100", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-101", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-102", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-103", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-104", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-105", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["negacao"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-106", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": ["sarcasmo"], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-107", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-108", "nivel": 1, "nivel_estrutural": 1, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-109", "nivel": 3, "nivel_estrutural": 3, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}
+{"id": "t3-subjective_tone-a1-110", "nivel": 2, "nivel_estrutural": 2, "nivel_rotulagem": 1, "padroes_usados": [], "padroes_de": "confirmados"}

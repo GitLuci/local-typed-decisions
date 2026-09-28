@@ -1,0 +1,17 @@
+{
+  "model": "local-typed-decisions-laya-multilingual",
+  "state": {"message": "I was charged twice for the same order. I want the duplicate charge refunded."},
+  "questions": {
+    "team": {
+      "type": "choice",
+      "instructions": "Which team should handle the message?",
+      "criteria": {"billing": "Payments, charges and refunds", "technical": "Bugs and outages", "sales": "New purchases"}
+    },
+    "refund": {"type": "noul", "instructions": "Is the customer asking for money back?"},
+    "tone": {
+      "type": "score",
+      "instructions": "How intense is the hostility expressed by the customer?",
+      "criteria": ["No insults or threats", "Complaint with insults", "Explicit threat of violence"]
+    }
+  }
+}

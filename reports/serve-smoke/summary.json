@@ -1,0 +1,111 @@
+{
+  "description": "Real smoke of \"python -m typed_decisions serve\" on an AMD RX 7600 (8 GB), llama.cpp b11205 Vulkan, shipped configs, GGUF hashes as in release-models.json. 3 requests per mode (test-2 items t2-factual-10, t2-sentence-00, t2-score_urgency-00); checks form and behaviour, not accuracy. First request includes lazy model load. VRAM = dedicated GPU memory above the idle desktop baseline (~0.8 GB). Aggregated from the original run log (per-request answers and local command lines not shipped).",
+  "checks": {
+    "all_200": true,
+    "health_ok": true,
+    "no_orphans_normal": true,
+    "no_orphans_abrupt": true,
+    "load_mode_none_with_partial_offload": true,
+    "llama_servers_seen": 7,
+    "slow_mode_t2_factual_10_returns_200": true
+  },
+  "runs": [
+    {
+      "mode": "ultra",
+      "exit": "normal",
+      "request_seconds": [
+        12.044,
+        0.479,
+        0.536
+      ],
+      "all_status_200": true,
+      "peak_ram_gb": 5.01,
+      "peak_vram_mb_above_base": 4392,
+      "load_mode_none": [
+        false
+      ],
+      "orphans_after_exit": 0
+    },
+    {
+      "mode": "fast",
+      "exit": "normal",
+      "request_seconds": [
+        13.331,
+        0.573,
+        0.631
+      ],
+      "all_status_200": true,
+      "peak_ram_gb": 3.09,
+      "peak_vram_mb_above_base": 6461,
+      "load_mode_none": [
+        true
+      ],
+      "orphans_after_exit": 0
+    },
+    {
+      "mode": "medium",
+      "exit": "normal",
+      "request_seconds": [
+        16.33,
+        6.036,
+        8.664
+      ],
+      "all_status_200": true,
+      "peak_ram_gb": 5.11,
+      "peak_vram_mb_above_base": 4396,
+      "load_mode_none": [
+        false
+      ],
+      "orphans_after_exit": 0
+    },
+    {
+      "mode": "slow",
+      "exit": "normal",
+      "request_seconds": [
+        22.11,
+        12.467,
+        12.374
+      ],
+      "all_status_200": true,
+      "peak_ram_gb": 3.2,
+      "peak_vram_mb_above_base": 6464,
+      "load_mode_none": [
+        true
+      ],
+      "orphans_after_exit": 0
+    },
+    {
+      "mode": "routed",
+      "exit": "normal",
+      "request_seconds": [
+        22.103,
+        10.356,
+        5.392
+      ],
+      "all_status_200": true,
+      "peak_ram_gb": 5.08,
+      "peak_vram_mb_above_base": 6461,
+      "load_mode_none": [
+        true,
+        false
+      ],
+      "orphans_after_exit": 0
+    },
+    {
+      "mode": "fast",
+      "exit": "abrupt",
+      "request_seconds": [
+        11.004,
+        0.554,
+        0.603
+      ],
+      "all_status_200": true,
+      "peak_ram_gb": 3.24,
+      "peak_vram_mb_above_base": 6460,
+      "load_mode_none": [
+        true
+      ],
+      "orphans_after_exit": 0
+    }
+  ]
+}

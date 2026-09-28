@@ -1,0 +1,1043 @@
+{"id": "t3-deterministic-gen-000", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-001", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-002", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-003", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-004", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-005", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-006", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-007", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-008", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-009", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-010", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-011", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-012", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-013", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-014", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-015", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-016", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-017", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-018", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-019", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-020", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-021", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-022", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-023", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-024", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-025", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-026", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-027", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-028", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-029", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-030", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-031", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-032", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-033", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-034", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-035", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-036", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-037", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-038", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-039", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-040", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-041", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-042", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-043", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-044", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-045", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-046", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-047", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-048", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-049", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-050", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-051", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-052", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-053", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-054", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-055", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-056", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-057", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-058", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-059", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-060", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-061", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-062", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-063", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-064", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-065", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-066", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-067", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-068", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-069", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-070", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-071", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-072", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-073", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-074", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-075", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-076", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-077", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-078", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-079", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-080", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-081", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-082", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-083", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-084", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-085", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-086", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-087", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-088", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-089", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-090", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-091", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-092", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-093", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-094", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-095", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-096", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-097", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-098", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-099", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-100", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-101", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-102", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-103", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-104", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-105", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-106", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-107", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-108", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-deterministic-gen-109", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-000", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-001", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-002", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-003", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-004", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-005", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-006", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-007", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-008", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-009", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-010", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-011", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-012", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-013", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-014", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-015", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-016", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-017", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-018", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-019", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-020", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-021", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-022", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-023", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-024", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-025", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-026", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-027", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-028", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-029", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-030", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-031", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-032", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-033", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-034", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-035", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-036", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-037", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-038", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-039", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-040", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-041", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-042", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-043", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-044", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-045", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-046", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-047", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-048", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-049", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-050", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-051", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-052", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-053", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-054", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-055", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-056", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-057", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-058", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-059", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-060", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-061", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-062", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-063", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-064", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-065", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-066", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-067", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-068", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-069", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-070", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-071", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-072", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-073", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-074", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-075", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-076", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-077", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-078", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-079", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-080", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-081", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-082", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-083", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-084", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-085", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-086", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-087", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-088", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-089", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-090", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-091", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-092", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-093", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-094", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-095", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-096", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-097", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-098", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-099", "target": {"yes": 0.0, "no": 0.0, "unknown": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-100", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-101", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-102", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-103", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-104", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-105", "target": {"yes": 0.0, "no": 1.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-106", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-107", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-108", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-factual-gen-109", "target": {"yes": 1.0, "no": 0.0, "unknown": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-noul_refund-a2-001", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-002", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-003", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-004", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-005", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-006", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-007", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-008", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-009", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-010", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-011", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-012", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-013", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-014", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-015", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-016", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-017", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-018", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-019", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-020", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-021", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-022", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-023", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-024", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-025", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-026", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-027", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-028", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-029", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-030", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-031", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-032", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-033", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-034", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-035", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-036", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-037", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-038", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-039", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-040", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-045", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-046", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-048", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-049", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-051", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-052", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-053", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-054", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-055", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-201", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-202", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-203", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-204", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-205", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-206", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-207", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-208", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-209", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-210", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-211", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-212", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-213", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-214", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-215", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-216", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-217", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-a2-218", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-noul_refund-b77-000", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-001", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-002", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-003", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-004", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-005", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-007", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-009", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-010", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-011", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-012", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-013", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-015", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-018", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-019", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-020", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-021", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-022", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-024", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-026", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-027", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-031", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-032", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-033", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-034", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-035", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-036", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-037", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-038", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-039", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-040", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-041", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-042", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-043", "target": {"false": 1.0, "true": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-044", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-045", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-046", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-048", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-049", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-050", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-051", "target": {"false": 1.0, "true": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-052", "target": {"false": 1.0, "true": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-noul_refund-b77-053", "target": {"false": 0.0, "true": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-numeric-gen-000", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-001", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-002", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-003", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-004", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-005", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-006", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-007", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-008", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-009", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-010", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-011", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-012", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-013", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-014", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-015", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-016", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-017", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-018", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-019", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-020", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-021", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-022", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-023", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-024", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-025", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-026", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-027", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-028", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-029", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-030", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-031", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-032", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-033", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-034", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-035", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-036", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-037", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-038", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-039", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-040", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-041", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-042", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-043", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-044", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-045", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-046", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-047", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-048", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-049", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-050", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-051", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-052", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-053", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-054", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-055", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-056", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-057", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-058", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-059", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-060", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-061", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-062", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-063", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-064", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-065", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-066", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-067", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-068", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-069", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-070", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-071", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-072", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-073", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-074", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-075", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-076", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-077", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-078", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-079", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-080", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-081", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-082", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-083", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-084", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-085", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-086", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-087", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-088", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-089", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-090", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-091", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-092", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-093", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-094", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-095", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-096", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-097", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-098", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-099", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-100", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-101", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-102", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-103", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-104", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-105", "target": {"correct": 1.0, "incorrect": 0.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-106", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-107", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-108", "target": {"correct": 0.0, "incorrect": 1.0, "undetermined": 0.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-numeric-gen-109", "target": {"correct": 0.0, "incorrect": 0.0, "undetermined": 1.0}, "gold_from": "generator", "ambiguo_final": false, "primario": true, "estrato": "a"}
+{"id": "t3-random-gen-00", "target": {"exact": 0.16666666666666666, "above": 0.16666666666666666, "other": 0.6666666666666666}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "1/6", "above": "1/6", "other": "2/3"}}
+{"id": "t3-random-gen-01", "target": {"exact": 0.1111111111111111, "above": 0.2777777777777778, "other": 0.6111111111111112}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "1/9", "above": "5/18", "other": "11/18"}}
+{"id": "t3-random-gen-02", "target": {"hearts": 0.25, "face": 0.17307692307692307, "other": 0.5769230769230769}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"hearts": "1/4", "face": "9/52", "other": "15/26"}}
+{"id": "t3-random-gen-03", "target": {"red": 0.3684210526315789, "blue": 0.47368421052631576, "green": 0.15789473684210525}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "7/19", "blue": "9/19", "green": "3/19"}}
+{"id": "t3-random-gen-04", "target": {"low": 0.6, "mid": 0.3, "high": 0.1}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "3/5", "mid": "3/10", "high": "1/10"}}
+{"id": "t3-random-gen-05", "target": {"red": 0.4, "blue": 0.4, "green": 0.2}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "2/5", "blue": "2/5", "green": "1/5"}}
+{"id": "t3-random-gen-06", "target": {"one": 0.09090909090909091, "even": 0.45454545454545453, "odd": 0.45454545454545453}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/11", "even": "5/11", "odd": "5/11"}}
+{"id": "t3-random-gen-07", "target": {"one": 0.14285714285714285, "even": 0.42857142857142855, "odd": 0.42857142857142855}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/7", "even": "3/7", "odd": "3/7"}}
+{"id": "t3-random-gen-08", "target": {"exact": 0.16666666666666666, "above": 0.08333333333333333, "other": 0.75}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "1/6", "above": "1/12", "other": "3/4"}}
+{"id": "t3-random-gen-09", "target": {"one": 0.09090909090909091, "even": 0.45454545454545453, "odd": 0.45454545454545453}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/11", "even": "5/11", "odd": "5/11"}}
+{"id": "t3-random-gen-10", "target": {"one": 0.16666666666666666, "even": 0.5, "odd": 0.3333333333333333}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/6", "even": "1/2", "odd": "1/3"}}
+{"id": "t3-random-gen-11", "target": {"low": 0.5, "mid": 0.3333333333333333, "high": 0.16666666666666666}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/2", "mid": "1/3", "high": "1/6"}}
+{"id": "t3-random-gen-12", "target": {"low": 0.625, "mid": 0.125, "high": 0.25}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "5/8", "mid": "1/8", "high": "1/4"}}
+{"id": "t3-random-gen-13", "target": {"red": 0.1875, "blue": 0.4375, "green": 0.375}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "3/16", "blue": "7/16", "green": "3/8"}}
+{"id": "t3-random-gen-14", "target": {"red": 0.6153846153846154, "blue": 0.3076923076923077, "green": 0.07692307692307693}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "8/13", "blue": "4/13", "green": "1/13"}}
+{"id": "t3-random-gen-15", "target": {"hearts": 0.25, "face": 0.17307692307692307, "other": 0.5769230769230769}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"hearts": "1/4", "face": "9/52", "other": "15/26"}}
+{"id": "t3-random-gen-16", "target": {"low": 0.16666666666666666, "mid": 0.16666666666666666, "high": 0.6666666666666666}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/6", "mid": "1/6", "high": "2/3"}}
+{"id": "t3-random-gen-17", "target": {"hearts": 0.25, "face": 0.17307692307692307, "other": 0.5769230769230769}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"hearts": "1/4", "face": "9/52", "other": "15/26"}}
+{"id": "t3-random-gen-18", "target": {"exact": 0.1388888888888889, "above": 0.16666666666666666, "other": 0.6944444444444444}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "5/36", "above": "1/6", "other": "25/36"}}
+{"id": "t3-random-gen-19", "target": {"none": 0.125, "k": 0.375, "other": 0.5}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/8", "k": "3/8", "other": "1/2"}}
+{"id": "t3-random-gen-20", "target": {"exact": 0.1388888888888889, "above": 0.08333333333333333, "other": 0.7777777777777778}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "5/36", "above": "1/12", "other": "7/9"}}
+{"id": "t3-random-gen-21", "target": {"red": 0.09090909090909091, "blue": 0.7272727272727273, "green": 0.18181818181818182}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "1/11", "blue": "8/11", "green": "2/11"}}
+{"id": "t3-random-gen-22", "target": {"one": 0.2, "even": 0.4, "odd": 0.4}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/5", "even": "2/5", "odd": "2/5"}}
+{"id": "t3-random-gen-23", "target": {"exact": 0.1388888888888889, "above": 0.16666666666666666, "other": 0.6944444444444444}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "5/36", "above": "1/6", "other": "25/36"}}
+{"id": "t3-random-gen-24", "target": {"red": 0.2777777777777778, "blue": 0.3333333333333333, "green": 0.3888888888888889}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "5/18", "blue": "1/3", "green": "7/18"}}
+{"id": "t3-random-gen-25", "target": {"low": 0.05, "mid": 0.85, "high": 0.1}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/20", "mid": "17/20", "high": "1/10"}}
+{"id": "t3-random-gen-26", "target": {"red": 0.5, "blue": 0.2777777777777778, "green": 0.2222222222222222}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "1/2", "blue": "5/18", "green": "2/9"}}
+{"id": "t3-random-gen-27", "target": {"one": 0.1, "even": 0.5, "odd": 0.4}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/10", "even": "1/2", "odd": "2/5"}}
+{"id": "t3-random-gen-28", "target": {"exact": 0.16666666666666666, "above": 0.08333333333333333, "other": 0.75}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"exact": "1/6", "above": "1/12", "other": "3/4"}}
+{"id": "t3-random-gen-29", "target": {"low": 0.125, "mid": 0.75, "high": 0.125}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/8", "mid": "3/4", "high": "1/8"}}
+{"id": "t3-random-gen-30", "target": {"none": 0.25, "k": 0.5, "other": 0.25}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/4", "k": "1/2", "other": "1/4"}}
+{"id": "t3-random-gen-31", "target": {"low": 0.3333333333333333, "mid": 0.5, "high": 0.16666666666666666}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/3", "mid": "1/2", "high": "1/6"}}
+{"id": "t3-random-gen-32", "target": {"red": 0.25, "blue": 0.45, "green": 0.3}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "1/4", "blue": "9/20", "green": "3/10"}}
+{"id": "t3-random-gen-33", "target": {"none": 0.03125, "k": 0.3125, "other": 0.65625}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/32", "k": "5/16", "other": "21/32"}}
+{"id": "t3-random-gen-34", "target": {"none": 0.0625, "k": 0.0625, "other": 0.875}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/16", "k": "1/16", "other": "7/8"}}
+{"id": "t3-random-gen-35", "target": {"low": 0.375, "mid": 0.5, "high": 0.125}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "3/8", "mid": "1/2", "high": "1/8"}}
+{"id": "t3-random-gen-36", "target": {"low": 0.08333333333333333, "mid": 0.3333333333333333, "high": 0.5833333333333334}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/12", "mid": "1/3", "high": "7/12"}}
+{"id": "t3-random-gen-37", "target": {"low": 0.4, "mid": 0.5, "high": 0.1}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "2/5", "mid": "1/2", "high": "1/10"}}
+{"id": "t3-random-gen-38", "target": {"low": 0.85, "mid": 0.1, "high": 0.05}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "17/20", "mid": "1/10", "high": "1/20"}}
+{"id": "t3-random-gen-39", "target": {"none": 0.03125, "k": 0.3125, "other": 0.65625}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/32", "k": "5/16", "other": "21/32"}}
+{"id": "t3-random-gen-40", "target": {"low": 0.2, "mid": 0.15, "high": 0.65}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/5", "mid": "3/20", "high": "13/20"}}
+{"id": "t3-random-gen-41", "target": {"none": 0.03125, "k": 0.15625, "other": 0.8125}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/32", "k": "5/32", "other": "13/16"}}
+{"id": "t3-random-gen-42", "target": {"one": 0.1111111111111111, "even": 0.4444444444444444, "odd": 0.4444444444444444}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/9", "even": "4/9", "odd": "4/9"}}
+{"id": "t3-random-gen-43", "target": {"one": 0.14285714285714285, "even": 0.42857142857142855, "odd": 0.42857142857142855}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/7", "even": "3/7", "odd": "3/7"}}
+{"id": "t3-random-gen-44", "target": {"red": 0.06666666666666667, "blue": 0.3333333333333333, "green": 0.6}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"red": "1/15", "blue": "1/3", "green": "3/5"}}
+{"id": "t3-random-gen-45", "target": {"none": 0.25, "k": 0.25, "other": 0.5}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"none": "1/4", "k": "1/4", "other": "1/2"}}
+{"id": "t3-random-gen-46", "target": {"low": 0.4166666666666667, "mid": 0.4166666666666667, "high": 0.16666666666666666}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "5/12", "mid": "5/12", "high": "1/6"}}
+{"id": "t3-random-gen-47", "target": {"low": 0.6, "mid": 0.25, "high": 0.15}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "3/5", "mid": "1/4", "high": "3/20"}}
+{"id": "t3-random-gen-48", "target": {"low": 0.25, "mid": 0.5, "high": 0.25}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"low": "1/4", "mid": "1/2", "high": "1/4"}}
+{"id": "t3-random-gen-49", "target": {"one": 0.09090909090909091, "even": 0.45454545454545453, "odd": 0.45454545454545453}, "gold_from": "generator", "ambiguo_final": false, "primario": false, "estrato": "a", "target_exacto": {"one": "1/11", "even": "5/11", "odd": "5/11"}}
+{"id": "t3-robotic_style-a1-001", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-002", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-003", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-004", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-005", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-006", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-007", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-008", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-009", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-010", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-011", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-012", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-013", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-014", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-015", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-016", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-017", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-018", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-019", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-020", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-021", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-022", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-023", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-024", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-025", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-026", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-027", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-028", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-029", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-030", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-031", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-032", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-033", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-034", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-035", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-036", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-037", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-038", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-039", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-040", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-041", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-042", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-043", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-044", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-045", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-046", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-047", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-048", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-049", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-050", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-051", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-052", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-053", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-054", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-055", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-056", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-057", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-058", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-059", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-060", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-061", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-062", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-063", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-064", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-065", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-066", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-067", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-068", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-069", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-070", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-071", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-072", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-073", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-074", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-075", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-076", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-077", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-078", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-079", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-080", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-081", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-082", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-083", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-084", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-085", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-086", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-087", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-088", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-089", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-090", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-091", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-092", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-093", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-094", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-095", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-096", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-097", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-098", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-099", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-100", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-101", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-102", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-103", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-104", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-105", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-106", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-107", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-108", "target": {"formulaic": 1.0, "conversational": 0.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-109", "target": {"formulaic": 0.0, "conversational": 1.0, "insufficient": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-robotic_style-a1-110", "target": {"formulaic": 0.0, "conversational": 0.0, "insufficient": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-001", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-002", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-003", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-004", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-005", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-006", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-007", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-008", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-009", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-010", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-011", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-012", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-013", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-014", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-015", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-016", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-017", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-018", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-019", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-020", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-021", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-022", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-023", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-024", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-025", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-026", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-027", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-028", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-029", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-030", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-031", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-032", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-033", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-034", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-035", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-036", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-037", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-038", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-039", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-040", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-041", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-042", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-043", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-044", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-045", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-046", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-047", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-048", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-049", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-050", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-051", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-052", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-053", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-054", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-055", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-056", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-057", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-058", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-059", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-060", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-061", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-062", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-063", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-064", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-065", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-066", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-067", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-068", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-069", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-070", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-071", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-072", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-073", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-074", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-075", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-076", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-077", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-078", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-079", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-080", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-081", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-082", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-083", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-084", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-085", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-086", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-087", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-088", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-089", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-090", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-091", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-092", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-093", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-094", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-095", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-096", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-097", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-098", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-099", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-100", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-101", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-102", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-103", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-104", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-105", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-106", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-107", "target": {"0": 0.0, "1": 0.0, "2": 1.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-108", "target": {"0": 0.0, "1": 0.0, "2": 0.0, "3": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-109", "target": {"0": 1.0, "1": 0.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-score_urgency-a2-110", "target": {"0": 0.0, "1": 1.0, "2": 0.0, "3": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-001", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-002", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-003", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-004", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-005", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-006", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-007", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-008", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-009", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-010", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-011", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-012", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-013", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-014", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-015", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-016", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-017", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-018", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-019", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-020", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-021", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-022", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-023", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-024", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-025", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-026", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-027", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-028", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-029", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-030", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-031", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-032", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-033", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-034", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-035", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-036", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-037", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-038", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-039", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-040", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-041", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-042", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-043", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-044", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-045", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-046", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-047", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-048", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-049", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-050", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-051", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-052", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-053", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-054", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-055", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-056", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-057", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-058", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-059", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-060", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-061", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-062", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-063", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-064", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-065", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-066", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-067", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-068", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-069", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-070", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-071", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-072", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-073", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-074", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-075", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-076", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-077", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-078", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-079", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-080", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-081", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-082", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-083", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-084", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-085", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-086", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-087", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-088", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-089", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-090", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-091", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-092", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-093", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-094", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-095", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-096", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-097", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-098", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-099", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-100", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-101", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-102", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-103", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-104", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-105", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-106", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-107", "target": {"statement": 0.0, "question": 1.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-108", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-109", "target": {"statement": 1.0, "question": 0.0, "request": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentence-a1-110", "target": {"statement": 0.0, "question": 0.0, "request": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-001", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-002", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-003", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-004", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-005", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-006", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-007", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-008", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-009", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-010", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-011", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-012", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-013", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-014", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-015", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-016", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-017", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-018", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-019", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-020", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-021", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-022", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-023", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-024", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-025", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-026", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-027", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-028", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-029", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-030", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-031", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-032", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-033", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-034", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-035", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-036", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-037", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-038", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-039", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-040", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-042", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-043", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-044", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-045", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-046", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-047", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-049", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-051", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-052", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-053", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-054", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-055", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-201", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-202", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-203", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-204", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-205", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-206", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-207", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-208", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-209", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-210", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-211", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-212", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-213", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-214", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-215", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-216", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-a2-217", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-sentiment-goe-000", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-001", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-002", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-003", "target": null, "gold_from": "J", "ambiguo_final": true, "primario": false, "estrato": "b"}
+{"id": "t3-sentiment-goe-004", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-005", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-006", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-008", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-009", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-010", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-011", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-012", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-014", "target": null, "gold_from": "J", "ambiguo_final": true, "primario": false, "estrato": "b"}
+{"id": "t3-sentiment-goe-015", "target": null, "gold_from": "J", "ambiguo_final": true, "primario": false, "estrato": "b"}
+{"id": "t3-sentiment-goe-017", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-018", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-019", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-020", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-021", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-022", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-023", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-024", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-026", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-028", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-029", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-030", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-031", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-032", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-033", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-036", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-037", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-038", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-039", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-041", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-043", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-044", "target": {"positive": 1.0, "neutral": 0.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-045", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-046", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-047", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-049", "target": null, "gold_from": "J", "ambiguo_final": true, "primario": false, "estrato": "b"}
+{"id": "t3-sentiment-goe-050", "target": {"positive": 0.0, "neutral": 1.0, "negative": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-051", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-053", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-sentiment-goe-054", "target": {"positive": 0.0, "neutral": 0.0, "negative": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "b"}
+{"id": "t3-subjective_tone-a1-001", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-002", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-003", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-004", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-005", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-006", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-007", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-008", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-009", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-010", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-011", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-012", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-013", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-014", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-015", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-016", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-017", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-018", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-019", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-020", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-021", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-022", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-023", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-024", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-025", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-026", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-027", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-028", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-029", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-030", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-031", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-032", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-033", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-034", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-035", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-036", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-037", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-038", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-039", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-040", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-041", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-042", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-043", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-044", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-045", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-046", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-047", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-048", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-049", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-050", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-051", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-052", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-053", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-054", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-055", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-056", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-057", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-058", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-059", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-060", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-061", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-062", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-063", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-064", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-065", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-066", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-067", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "J", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-068", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-069", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-070", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-071", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-072", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-073", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-074", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-075", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-076", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-077", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-078", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-079", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-080", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-081", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-082", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-083", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-084", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-085", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-086", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-087", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-088", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-089", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-090", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-091", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-092", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-093", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-094", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-095", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-096", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-097", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-098", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-099", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-100", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-101", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-102", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-103", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-104", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-105", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-106", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-107", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-108", "target": {"warm": 1.0, "neutral": 0.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-109", "target": {"warm": 0.0, "neutral": 0.0, "hostile": 1.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}
+{"id": "t3-subjective_tone-a1-110", "target": {"warm": 0.0, "neutral": 1.0, "hostile": 0.0}, "gold_from": "R1=R2", "ambiguo_final": false, "primario": true, "estrato": "c"}

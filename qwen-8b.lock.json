@@ -1,0 +1,10 @@
+{
+  "repo_id": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "path": "models/qwen3-8b",
+  "license": "Apache-2.0",
+  "source_url": "https://huggingface.co/Qwen/Qwen3-8B",
+  "method": "shared-prefix causal tree + candidate-token readout; no task fine-tuning",
+  "prompt_version": "decision-v1",
+  "note": "Used only quantized (Q8_0 direct from safetensors, Q4_K_M requantized from that Q8_0), no imatrix."
+}

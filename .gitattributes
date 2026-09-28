@@ -1,0 +1,8 @@
+# Normalize text files to LF
+* text=auto eol=lf
+*.ps1 text eol=crlf
+
+# Sealed benchmark files: byte-exact (hashes in examples/test-3/manifest.json and docs/METHODOLOGY.md)
+/examples/test-3/** text eol=lf
+/examples/*.jsonl text eol=lf
+/labels/test-3/** text eol=lf

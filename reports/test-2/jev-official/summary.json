@@ -1,0 +1,33 @@
+{
+  "provenance": {
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "corpus": "examples/test-2-scenarios.jsonl",
+    "corpus_sha256": "cb9cd5be55e59db86f73b42a39cf48791bc81c8bb62bd27df27593e308b0b828",
+    "protocol": "docs/METHODOLOGY.md (test-2): baseline queried once",
+    "variants": "choice: 2 letter assignments; noul/score: 1 (paired by position)",
+    "probability_note": "API probabilities stored; logits = log(max(p,1e-300)).",
+    "script_sha256": "b46d483eddd460524380bad3a347eac8c8ec6d3eae1a34a505eb856569c27899"
+  },
+  "requests": 168,
+  "input_tokens": 80902,
+  "labelled_correct": 144,
+  "labelled_n": 156,
+  "domains_correct": {
+    "factual": "17/18",
+    "noul_refund": "23/24",
+    "numeric": "9/18",
+    "robotic_style": "17/18",
+    "score_urgency": "24/24",
+    "sentence": "18/18",
+    "sentiment": "18/18",
+    "subjective_tone": "18/18"
+  },
+  "noul_recall": {
+    "false": "12/13",
+    "true": "11/11"
+  },
+  "score_mean_abs_level_error": 0.0,
+  "random_mean_tv": 0.34847222222222224,
+  "choice_order_changed": 1
+}

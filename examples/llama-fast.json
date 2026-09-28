@@ -1,0 +1,19 @@
+{
+  "mode": "fast",
+  "n_probs": 20,
+  "timeout": 3600,
+  "seed": 20260925,
+  "servers": {
+    "8b": {
+      "url": "http://127.0.0.1:8790",
+      "tokenizer_path": "../models/qwen3-8b",
+      "launch": {
+        "executable": "../tools/llama-b11205-vulkan/llama-server.exe",
+        "model_path": "../models/qwen3-8b-gguf/qwen3-8b-Q8_0.gguf",
+        "gpu_layers": 30,
+        "threads": 4,
+        "startup_timeout": 120
+      }
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "provenance": "Hand-authored synthetic contract examples; no model or Jev API results; confidence values illustrative, not calibration targets.",
+  "cases": [
+    {
+      "id": "mixed_unicode",
+      "request": {
+        "model": "local",
+        "state": {
+          "text": "Ana's parcel arrives in Évora on Friday.",
+          "fragile": true
+        },
+        "questions": {
+          "naïve/中文": {
+            "type": "choice",
+            "instructions": "Which destination is in the text?",
+            "criteria": {
+              "Lisbon": null,
+              "Évora": {
+                "description": "City mentioned"
+              }
+            }
+          },
+          "intensity": {
+            "type": "score",
+            "instructions": [
+              "Rate the urgency",
+              {
+                "scale": "low to high"
+              }
+            ],
+            "criteria": [
+              "Low",
+              "Medium",
+              "High"
+            ]
+          },
+          "friday?": {
+            "type": "noul",
+            "instructions": "Is delivery expected on Friday?",
+            "criteria": {
+              "true": "Yes",
+              "false": "No"
+            }
+          }
+        }
+      },
+      "response": {
+        "model": "contract-fixture",
+        "answers": {
+          "naïve/中文": {
+            "type": "choice",
+            "choice": "Évora",
+            "probabilities": {
+              "Évora": 0.85,
+              "Lisbon": 0.15
+            },
+            "confidence": 0.39
+          },
+          "intensity": {
+            "type": "score",
+            "score": 1.5,
+            "probabilities": {
+              "2": 0.6,
+              "0": 0.1,
+              "1": 0.3
+            },
+            "legend": {
+              "0": "Low",
+              "1": "Medium",
+              "2": "High"
+            },
+            "confidence": 0.18
+          },
+          "friday?": {
+            "type": "noul",
+            "noul": 0.75
+          }
+        },
+        "usage": {
+          "input_tokens": 120,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "tie_and_structured_score",
+      "request": {
+        "state": [
+          "Insufficient information",
+          {
+            "origin": null
+          }
+        ],
+        "questions": {
+          "tie": {
+            "type": "choice",
+            "instructions": {
+              "question": "Choose a category"
+            },
+            "criteria": {
+              "a": [
+                "Category A"
+              ],
+              "b": "Category B"
+            }
+          },
+          "grades_ñ": {
+            "type": "score",
+            "instructions": "Rate the tone",
+            "criteria": [
+              {
+                "tone": "negative"
+              },
+              [
+                "positive",
+                "welcoming"
+              ]
+            ]
+          },
+          "no-criteria": {
+            "type": "noul",
+            "instructions": "Is there an explicit date?"
+          }
+        }
+      },
+      "response": {
+        "model": "contract-fixture",
+        "answers": {
+          "tie": {
+            "type": "choice",
+            "choice": "b",
+            "probabilities": {
+              "a": 0.5,
+              "b": 0.5
+            },
+            "confidence": 0.0
+          },
+          "grades_ñ": {
+            "type": "score",
+            "score": 0.25,
+            "probabilities": {
+              "0": 0.75,
+              "1": 0.25
+            },
+            "legend": {
+              "0": {
+                "tone": "negative"
+              },
+              "1": [
+                "positive",
+                "welcoming"
+              ]
+            },
+            "confidence": 0.1
+          },
+          "no-criteria": {
+            "type": "noul",
+            "noul": 0
+          }
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "empty_state_and_boundaries",
+      "request": {
+        "state": "",
+        "questions": {
+          "one-hot": {
+            "type": "choice",
+            "instructions": "Choose",
+            "criteria": {
+              "0": "Absent",
+              "__proto__": "Present"
+            }
+          },
+          "maximum": {
+            "type": "score",
+            "instructions": "Rate",
+            "criteria": [
+              "No",
+              "Yes"
+            ]
+          },
+          "yes": {
+            "type": "noul",
+            "instructions": "True?",
+            "criteria": null
+          }
+        }
+      },
+      "response": {
+        "model": "contract-fixture",
+        "answers": {
+          "one-hot": {
+            "type": "choice",
+            "choice": "__proto__",
+            "probabilities": {
+              "0": 0,
+              "__proto__": 1
+            },
+            "confidence": 1
+          },
+          "maximum": {
+            "type": "score",
+            "score": 1,
+            "probabilities": {
+              "0": 0,
+              "1": 1
+            },
+            "legend": {
+              "0": "No",
+              "1": "Yes"
+            },
+            "confidence": 1
+          },
+          "yes": {
+            "type": "noul",
+            "noul": 1
+          }
+        },
+        "usage": {
+          "input_tokens": 15,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "legacy_noul_clarification",
+      "request": {
+        "state": {},
+        "questions": {
+          "q": {
+            "type": "noul",
+            "instructions": "Is it urgent?",
+            "criteria": [
+              "Urgent means today"
+            ]
+          }
+        }
+      },
+      "response": {
+        "model": "contract-fixture",
+        "answers": {
+          "q": {
+            "type": "noul",
+            "noul": 0.5
+          }
+        },
+        "usage": {
+          "input_tokens": 20,
+          "output_tokens": 0
+        }
+      }
+    }
+  ]
+}
