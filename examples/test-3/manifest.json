@@ -280,5 +280,14 @@
   "test": 953,
   "ambiguo_final": 4
  },
- "seal_commit": null
+ "seal_commit": null,
+ "shipped_redacted": {
+  "note": "GoEmotions texts (44 states) are not shipped (no explicit data licence); they are null in the shipped states.jsonl. Run scripts/fetch_goemotions.py to restore them from the pinned upstream file; the restored file must match sha256['states.jsonl'].",
+  "dataset": "google-research-datasets/go_emotions (simplified)",
+  "field": "text",
+  "states": 44,
+  "sha256": {
+   "states.jsonl": "646b78709042d296114266ed5cd59ee68694362121aa888bf757016e560dd12f"
+  }
+ }
 }

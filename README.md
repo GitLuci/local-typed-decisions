@@ -31,16 +31,17 @@ POST /v1/systemone
 
 ## Modes
 
-Measured on an **AMD Radeon RX 7600 (8 GB)** with llama.cpp b11205 Vulkan, batch 1. Accuracy on the 900 sealed
-questions of test-3 (Jev: 841/900).
+Modes are named by speed. Measured on an **AMD Radeon RX 7600 (8 GB)** with llama.cpp b11205 Vulkan, batch 1;
+accuracy on the 900 sealed questions of test-3. Sorted by accuracy.
 
 | mode | model | how it decides | test-3 /900 | median s/question | per request in `serve`¹ |
 |---|---|---|---:|---:|---:|
-| `ultra-fast` | Qwen3-4B Q8_0 (4.3 GB) | one forward, read the letter | 726 | 0.29 | 0.48–0.54 s |
-| `fast` | Qwen3-8B Q8_0 (8.7 GB, 30/36 layers on GPU) | one forward, read the letter | 782 | 0.48 | 0.57–0.63 s |
+| *Jev 1.13 (API, baseline)* | — | — | *841* | network | — |
+| `routed` | 4B/8B by domain | per-domain choice of the four below | 829² | 0.50 (mean 4.5) | — |
 | `medium` | Qwen3-4B Q8_0 | think ≤ 1024 tokens (median 269), then read | **816** | 7.3 | 6.0–8.7 s |
 | `slow` | Qwen3-8B Q8_0 | think ≤ 128 tokens, then read | 804 | 11.6 | 12.4–12.5 s |
-| `routed` | 4B/8B by domain | per-domain choice of the four above | 829² | 0.50 (mean 4.5) | — |
+| `fast` | Qwen3-8B Q8_0 (8.7 GB, 30/36 layers on GPU) | one forward, read the letter | 782 | 0.48 | 0.57–0.63 s |
+| `ultra-fast` | Qwen3-4B Q8_0 (4.3 GB) | one forward, read the letter | 726 | 0.29 | 0.48–0.54 s |
 
 ¹ `python -m typed_decisions serve` smoke, 3 requests per mode after the first one (the first request loads the model:
 11–22 s). Peak VRAM +4.4 GB (4B) / +6.5 GB (8B); see `reports/serve-smoke/summary.json`.
@@ -56,28 +57,34 @@ including 5 model switches ([RESULTS §4](docs/RESULTS.md#4-routed-mode)).
 evaluated models ([METHODOLOGY](docs/METHODOLOGY.md#4-test-3-independent-gold)). "Jev level" = lower bound of the
 conservative 95 % CI of Δ above −3 points (pre-registered). **No local arm reaches Jev level overall.**
 
-| arm (mode) | correct /900 | Δ vs Jev (points) | 95 % CI | Jev level |
+![test-3 accuracy](docs/img/test3_accuracy.png)
+
+![accuracy vs latency](docs/img/accuracy_vs_latency.png)
+
+| system | correct /900 | Δ vs Jev (points) | 95 % CI | Jev level |
 |---|---:|---:|---|---|
 | Jev 1.13 (API) | 841 | — | — | reference |
 | routed (combined from the four arms, post hoc)³ | 829 | −1.3 | — | not tested |
-| 4B Q8 think (`medium`) | **816** | **−2.8** | [−5.0; −0.6] | no |
-| 8B Q8 short think (`slow`) | 804 | −4.1 | [−6.2; −2.1] | no |
-| 8B Q8 fast (`fast`) | 782 | −6.6 | [−8.9; −4.3] | no |
-| 4B Q8 fast (`ultra-fast`) | 726 | −12.8 | [−15.6; −10.0] | no |
+| `medium` (4B Q8, think ≤ 1024) | **816** | **−2.8** | [−5.0; −0.6] | no |
+| `slow` (8B Q8, think ≤ 128) | 804 | −4.1 | [−6.2; −2.1] | no |
+| `fast` (8B Q8) | 782 | −6.6 | [−8.9; −4.3] | no |
+| `ultra-fast` (4B Q8) | 726 | −12.8 | [−15.6; −10.0] | no |
 
-Per domain (correct /100):
+Per domain (correct /100; columns ordered by overall accuracy):
 
-| domain | Jev | `fast` | `ultra-fast` | `slow` | `medium` | routed to |
+![test-3 per domain](docs/img/test3_per_domain.png)
+
+| domain | Jev | `medium` | `slow` | `fast` | `ultra-fast` | routed to |
 |---|---:|---:|---:|---:|---:|---|
-| factual | 100 | 91 | 91 | 96 | 93 | `slow` |
-| numeric | 80 | 77 | 72 | 77 | **98** (beats Jev, +18 [9.7; 27.0]) | `medium` |
-| deterministic | 95 | 82 | 88 | 93 | 92 | `slow` |
-| sentence | 98 | 81 | 82 | 85 | 90 | `medium` |
-| sentiment | 90 | 87 | 86 | 88 | 85 | `slow` |
-| subjective_tone | 97 | 92 | 52 | 92 | 87 | `fast` |
-| robotic_style | 88 | 84 | 76 | 84 | 84 | `fast` |
-| noul_refund | 93 | 92 | 84 | 93 | 91 | `fast` |
-| score_urgency | 100 | 96 | 95 | 96 | 96 | `fast` |
+| factual | 100 | 93 | 96 | 91 | 91 | `slow` |
+| numeric | 80 | **98** (beats Jev, +18 [9.7; 27.0]) | 77 | 77 | 72 | `medium` |
+| deterministic | 95 | 92 | 93 | 82 | 88 | `slow` |
+| sentence | 98 | 90 | 85 | 81 | 82 | `medium` |
+| sentiment | 90 | 85 | 88 | 87 | 86 | `slow` |
+| subjective_tone | 97 | 87 | 92 | 92 | 52 | `fast` |
+| robotic_style | 88 | 84 | 84 | 84 | 76 | `fast` |
+| noul_refund | 93 | 91 | 93 | 92 | 84 | `fast` |
+| score_urgency | 100 | 96 | 96 | 96 | 95 | `fast` |
 
 ³ Sum of the per-domain arm in the "routed to" column below; no CI or verdict because the map was selected on
 these same results.
@@ -90,30 +97,32 @@ see caveats.
 
 | configuration | /156 | /138 without `numeric` |
 |---|---:|---:|
+| **routed** (measured end to end / from existing predictions) | **145 / 144** | — / 132 |
 | Jev 1.13 (API) | 144 | 135 |
-| **routed** (existing predictions / measured end to end) | **144 / 145** | 132 / — |
-| 8B Q8 short think (`slow`) | 144 | 133 |
-| 4B Q8 think (`medium`) | 141 | 129 |
-| 8B Q8 fast (`fast`) | 132 | 126 |
-| 4B Q8 fast (`ultra-fast`) | 123 (120 on the GPU engine) | 115 |
+| `slow` (8B Q8, think ≤ 128) | 144 | 133 |
+| `medium` (4B Q8, think ≤ 1024) | 141 | 129 |
+| `fast` (8B Q8) | 132 | 126 |
+| `ultra-fast` (4B Q8) | 123 (120 on the GPU engine) | 115 |
+
+![test-2 accuracy](docs/img/test2_accuracy.png)
 
 Per-domain test-2 tables, paired comparisons (routed − Jev: +0.0 [−3.8; 3.8]), earlier models and every caveat:
 [docs/RESULTS.md](docs/RESULTS.md).
 
 ### Comparison with similar projects
 
-Same sealed sets, same gold, same scoring. Rows marked *pending* are being run and will be filled in from committed
-aggregate reports; nothing here is estimated. Latency is median seconds per question on the stated hardware.
+Same sealed sets, same gold, same scoring; sorted by test-3 accuracy (pending rows last). Rows marked *pending* are being run and will be filled in from committed
+aggregate reports (`reports/comparison.json`, which `scripts/make_charts.py` also reads); nothing here is estimated. Latency is median seconds per question on the stated hardware.
 
 | system | type | test-2 /156 | test-3 /900 | median s/question | hardware |
 |---|---|---:|---:|---:|---|
 | Jev 1.13 by TypeSafe (baseline, via its API) | hosted typed-decision API | 144 | 841 | network | remote |
-| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
-| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
 | local-typed-decisions `medium` (Qwen3-4B Q8_0, think ≤ 1024) | local LLM, thinking + readout | 141 | 816 | 7.3 | RX 7600 8 GB |
 | local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 144 | 804 | 11.6 | RX 7600 8 GB |
-| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
-| Julia-1 (144M encoder + decision head) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
+| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
+| Julia-1 (144M encoder + decision head, third-party) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
 | Laya multilingual (~322M, decision heads) | small model, typed heads | *pending* | *pending* | *pending* | *pending* |
 | DeBERTa-v3 zero-shot NLI classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
 | BART-large-MNLI zero-shot classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
@@ -191,6 +200,9 @@ python -m pytest -q          # unit tests with simulated HTTP/processes; no weig
   prompts).
 - `docs/OPEN_WORK.md` — open fronts (vision schema with small VLMs, speed, full offload, domain inference, new sealed
   set for the router).
+- test-3 ships with the 44 GoEmotions texts removed (licence, see [DATA_LICENSES.md](DATA_LICENSES.md)); restore
+  them with `python scripts/fetch_goemotions.py` (pinned upstream file, verified against the sealed hash).
+- Charts: `python scripts/make_charts.py` (needs matplotlib) regenerates `docs/img/*.png` from `reports/`.
 - Reproduce test-3 arms: `python scripts/test3_seal.py --check`, then `scripts/test3_arm.py` per arm and
   `scripts/test3_harness.py analyze` (see the script help). test-2 runners: `scripts/test2_*.py`. Runtime
   measurement: `scripts/runtime_measure.py`. Building the GGUF files from the Qwen safetensors:
@@ -202,7 +214,8 @@ python -m pytest -q          # unit tests with simulated HTTP/processes; no weig
 harnesses, model download/build · `tests/` · `examples/` configs, requests and the frozen benchmark sets ·
 `labels/` human-audit sample · `reports/` aggregate results and manifests · `docs/`.
 
-The benchmark data is mostly Portuguese (pt-PT and pt-BR) plus English items from public datasets; see
+The benchmark data is mostly Portuguese (pt-PT and pt-BR) plus English items from public datasets (GoEmotions texts
+are fetched by script, not shipped); see
 [DATA_LICENSES.md](DATA_LICENSES.md).
 
 ## License

@@ -112,6 +112,8 @@ def read_sealed(folder, needed=("states.jsonl", "questions.jsonl"), gold=False, 
         if not p.exists():
             raise SystemExit(f"{name}: file missing")
         if sha256_file(p) != hashes[name]:
+            if sha256_file(p) == man.get("shipped_redacted", {}).get("sha256", {}).get(name):
+                raise SystemExit(f"{name}: GoEmotions texts are not restored; run scripts/fetch_goemotions.py first")
             raise SystemExit(f"{name}: sha256 differs from the sealed manifest; refusing to run")
         out[name] = read_jsonl(p)
     out["manifest"] = man

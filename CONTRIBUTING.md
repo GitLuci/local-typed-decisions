@@ -12,7 +12,8 @@ Thanks for your interest. This is a research codebase with a strict evaluation d
   data only; confirm once on a sealed set.
 - **Never edit sealed files.** `examples/test-3/{states,questions,gold,levels}.jsonl` and
   `examples/test-2-scenarios.jsonl` are byte-exact; `python scripts/test3_seal.py --check` must pass. Their
-  Portuguese field names are part of the seal.
+  Portuguese field names are part of the seal. The shipped `states.jsonl` has the GoEmotions texts removed;
+  `python scripts/fetch_goemotions.py` restores them (see DATA_LICENSES.md).
 - **Numbers come from committed reports.** Every number in the docs must be produced by a committed script and
   backed by a committed aggregate report under `reports/`. Do not hand-edit tables.
 - **Baseline outputs.** Do not commit raw responses from commercial APIs; commit aggregates only.

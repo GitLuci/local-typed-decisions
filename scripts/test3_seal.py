@@ -5,7 +5,10 @@ sha256 of each generator output, authored file, verifier/labeler/adjudicator fil
 files and the development history that held them are NOT part of this repository, so the build step cannot be re-run
 here. What can be checked on the shipped files is checked:
 
-- sha256 of the four sealed files against the manifest;
+- sha256 of the four sealed files against the manifest. `states.jsonl` is shipped with the 44 GoEmotions texts set to
+  null (no explicit data licence, see DATA_LICENSES.md); that redacted file must match
+  `manifest["shipped_redacted"]["sha256"]`, and after `python scripts/fetch_goemotions.py` it must match the sealed
+  hash. Both states pass this check; model runs require the restored (sealed) file;
 - byte-level determinism: every file is LF-only and equal to its canonical serialization (rows sorted by id, one
   compact JSON object per line, UTF-8);
 - referential integrity: unique ids, every question has a state, gold and level row, every state has a question;
@@ -64,8 +67,10 @@ def load(folder=SEALED):
 
 def check_bytes(data, manifest) -> list[str]:
     fails = []
+    redacted = manifest.get("shipped_redacted", {}).get("sha256", {})
     for name, b in data.items():
-        if hashlib.sha256(b).hexdigest() != manifest["sha256"].get(name):
+        digest = hashlib.sha256(b).hexdigest()
+        if digest != manifest["sha256"].get(name) and digest != redacted.get(name):
             fails.append(f"{name}: sha256 differs from the manifest")
         if b"\r" in b:
             fails.append(f"{name}: contains CR (must be LF-only)")
@@ -170,6 +175,9 @@ def main(argv=None):
     data, manifest = load(a.folder)
     print(json.dumps({"totals": manifest["totals"], "sha256": manifest["sha256"]}, ensure_ascii=False, indent=1))
     fails = check(a.folder)
+    if hashlib.sha256((Path(a.folder) / "states.jsonl").read_bytes()).hexdigest() != manifest["sha256"]["states.jsonl"]:
+        print("note: states.jsonl is the shipped redacted file (GoEmotions texts null); "
+              "run scripts/fetch_goemotions.py before running models")
     for f in fails:
         print("FAIL:", f)
     print("seal check: " + ("FAILED" if fails else "ok (hashes, canonical LF bytes, gold rule, counts, quota within +-10)"))

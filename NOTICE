@@ -2,7 +2,8 @@ local-typed-decisions
 Copyright 2026 The local-typed-decisions authors
 
 This product includes benchmark items derived from third-party datasets
-(Banking77, CC BY 4.0; GoEmotions, Apache-2.0). See DATA_LICENSES.md.
+(Banking77, CC BY 4.0). GoEmotions texts are not redistributed; only comment
+ids are shipped and scripts/fetch_goemotions.py restores them. See DATA_LICENSES.md.
 
 The GGUF model files distributed separately on the Hugging Face Hub are
 quantizations of Qwen3-4B and Qwen3-8B by the Qwen team (Apache-2.0).

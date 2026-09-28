@@ -1,0 +1,9 @@
+{
+  "note": "Other systems evaluated on the same sealed sets. Fill in the numbers and 'source' (a committed report) when a run is done; scripts/make_charts.py picks up every row whose value is not null.",
+  "systems": [
+    {"name": "Julia-1", "kind": "144M encoder + decision head (third-party)", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null},
+    {"name": "Laya multilingual", "kind": "~322M, dedicated decision heads (third-party)", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null},
+    {"name": "DeBERTa-v3 zero-shot", "kind": "zero-shot NLI classifier", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null},
+    {"name": "BART-large-MNLI", "kind": "zero-shot NLI classifier", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null}
+  ]
+}

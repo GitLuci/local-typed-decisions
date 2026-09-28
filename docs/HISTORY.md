@@ -74,9 +74,10 @@ On dev+cal (45), each thinking once, read by itself and by a 0.6B reader:
 - Qwen3-8B Q8_0 thinking: 43 on dev+cal = its own fast path, with different errors (p = 1.0); decides well with short
   thoughts (sealed budget rule picked 64 tokens).
 
-## 10. A small encoder
+## 10. Julia-1, a small third-party decision model
 
-A small 144M encoder experiment (a multilingual BERT-style encoder with a decision head, used as published): 18/45 on
+[Julia-1](https://huggingface.co/SupersonicLabs/Julia-1) (`SupersonicLabs/Julia-1`, Apache-2.0; a 144M mmBERT-small
+encoder with a decision head), run as released with its own code and our question schema: 18/45 on
 dev+cal (near chance on three domains; confident and wrong probabilities, ECE 0.46) at ~0.06 s per question. Dropped
 before test-2.
 

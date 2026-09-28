@@ -14,6 +14,9 @@ Arm / mode names used throughout:
 | 8B Q8 short think | Qwen3-8B Q8_0 | think up to 128 tokens, then read the letter | `slow` |
 | routed | 4B/8B by domain | per-domain choice among the four above | `routed` |
 
+Charts are generated from the committed reports by `scripts/make_charts.py` (`docs/img/`). Every table below is
+sorted from best to worst, with the Jev baseline placed by its own score.
+
 ## 1. Comparison of all configurations
 
 Columns: **s/case** = median seconds per case on a 4-vCPU Xeon VM (CPU, llama-cpp-python or PyTorch), except
@@ -25,25 +28,25 @@ each; `noul` and `score` 24). "—" = not run.
 | model | mode | s/case | dev+cal /45 | test-1 /45 | test-2 /156 | /138 | /120 | test-3 /900 | Δ vs Jev [CI] | fact | sent | sentim | tone | robot | num | noul | score |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Jev 1.13 (API) | reference | — | — | 43 | 144 | 135 | 117 | 841 | — | 17 | 18 | 18 | 18 | 17 | 9 | 23 | 24 |
-| Qwen3-0.6B FP32 | fast | 0.6 | — | 21 | 77 | 69 | 63 | — | — | 6 | 8 | 7 | 6 | 12 | 8 | 20 | 10 |
-| Qwen3-0.6B FP32 | think (1024) | 28.4 (PC) | — | 30 | — | — | — | — | — | | | | | | | | |
-| Qwen3-1.7B FP32 | fast | 1.6 | — | 27 | 89 | 83 | 76 | — | — | 9 | 15 | 14 | 7 | 6 | 6 | 15 | 17 |
-| Qwen3-1.7B FP32 | think (1024) | 8.2 (PC) | — | 32 | — | — | — | — | — | | | | | | | | |
-| Qwen3-1.7B FP32 | forced think ≥128 (test-2 budget 192) | 38.7 | 41 | — | 120 | 110 | 99 | — | — | 15 | 15 | 17 | 11 | 11 | 10 | 22 | 19 |
-| Qwen3-4B FP32 | fast | 7.1 (PC) | 38 | 35 | — | — | — | — | — | | | | | | | | |
-| Qwen3-4B FP32 | think (1024) | 183.2 (PC) | — | 41 | — | — | — | — | — | | | | | | | | |
-| Qwen3-4B Q8_0 | fast (4B Q8 fast) | 7.5 | 38 | — | 123 | 115 | 108 | 726 | −12.8 [−15.6; −10.0] | 17 | 17 | 14 | 7 | 14 | 8 | 22 | 24 |
-| Qwen3-4B Q8_0 | fast, revised tone prompt | — | 41 | — | — | — | — | — | — | | | | | | | | |
 | **Qwen3-4B Q8_0** | **think (1024) (4B Q8 think)** | 45.6 | — | 41 | **141** | **129** | 116 | **816** | **−2.8 [−5.0; −0.6]** | 17 | 18 | 18 | 13 | 17 | 12 | 23 | 23 |
-| Qwen3-4B Q4_K_M | think (1024) | 38.4 | — | 41 | — | — | — | — | — | | | | | | | | |
-| Qwen3-4B-Thinking-2507 Q4_K_M | think (1024) | 117.9 | 42 | — | 142 | 129 | 113 | — | — | 17 | 18 | 18 | 16 | 14 | 13 | 23 | 23 |
-| LFM2.5-1.2B-Thinking FP32 | think (1024) | 59.2 | 35 | — | — | — | — | — | — | | | | | | | | |
-| Qwen3.5-2B FP32 | think (1024) | 181.2 | 39 | — | — | — | — | — | — | | | | | | | | |
-| 144M encoder + decision head | fast, own typed API | 0.1 | 18 | — | — | — | — | — | — | | | | | | | | |
-| **Qwen3-8B Q8_0** | **fast (8B Q8 fast)** | 4.1 | 43 | — | 132 | 126 | 108 | 782 | −6.6 [−8.9; −4.3] | 14 | 14 | 18 | 18 | 15 | 6 | 23 | 24 |
 | Qwen3-8B Q8_0 | short think (cap 128, read at 128) | 29.4 | — | — | 144 | 133 | 115 | 804 | −4.1 [−6.2; −2.1] | 16 | 18 | 18 | 18 | 17 | 11 | 22 | 24 |
+| **Qwen3-8B Q8_0** | **fast (8B Q8 fast)** | 4.1 | 43 | — | 132 | 126 | 108 | 782 | −6.6 [−8.9; −4.3] | 14 | 14 | 18 | 18 | 15 | 6 | 23 | 24 |
+| Qwen3-4B Q8_0 | fast (4B Q8 fast) | 7.5 | 38 | — | 123 | 115 | 108 | 726 | −12.8 [−15.6; −10.0] | 17 | 17 | 14 | 7 | 14 | 8 | 22 | 24 |
+| Qwen3-4B-Thinking-2507 Q4_K_M | think (1024) | 117.9 | 42 | — | 142 | 129 | 113 | — | — | 17 | 18 | 18 | 16 | 14 | 13 | 23 | 23 |
+| Qwen3-1.7B FP32 | forced think ≥128 (test-2 budget 192) | 38.7 | 41 | — | 120 | 110 | 99 | — | — | 15 | 15 | 17 | 11 | 11 | 10 | 22 | 19 |
+| Qwen3-1.7B FP32 | fast | 1.6 | — | 27 | 89 | 83 | 76 | — | — | 9 | 15 | 14 | 7 | 6 | 6 | 15 | 17 |
+| Qwen3-0.6B FP32 | fast | 0.6 | — | 21 | 77 | 69 | 63 | — | — | 6 | 8 | 7 | 6 | 12 | 8 | 20 | 10 |
+| Qwen3-4B FP32 | think (1024) | 183.2 (PC) | — | 41 | — | — | — | — | — | | | | | | | | |
+| Qwen3-4B Q4_K_M | think (1024) | 38.4 | — | 41 | — | — | — | — | — | | | | | | | | |
+| Qwen3-4B FP32 | fast | 7.1 (PC) | 38 | 35 | — | — | — | — | — | | | | | | | | |
+| Qwen3-1.7B FP32 | think (1024) | 8.2 (PC) | — | 32 | — | — | — | — | — | | | | | | | | |
+| Qwen3-0.6B FP32 | think (1024) | 28.4 (PC) | — | 30 | — | — | — | — | — | | | | | | | | |
 | Qwen3-8B Q8_0 | think (1024) | 53.3 | 43 | — | — | — | — | — | — | | | | | | | | |
+| Qwen3-4B Q8_0 | fast, revised tone prompt | — | 41 | — | — | — | — | — | — | | | | | | | | |
+| Qwen3.5-2B FP32 | think (1024) | 181.2 | 39 | — | — | — | — | — | — | | | | | | | | |
 | Qwen3-8B Q4_K_M | fast (Q8 parity check) | 4.5 | 39 | — | — | — | — | — | — | | | | | | | | |
+| LFM2.5-1.2B-Thinking FP32 | think (1024) | 59.2 | 35 | — | — | — | — | — | — | | | | | | | | |
+| Julia-1 (144M encoder + decision head, third-party) | fast, own typed API | 0.1 | 18 | — | — | — | — | — | — | | | | | | | | |
 
 Notes:
 - dev+cal numbers for thinking candidates are with the model reading its own thought.
@@ -56,12 +59,14 @@ Notes:
 
 ## 2. test-2 (168 cases, 156 labeled)
 
+![test-2 accuracy](img/test2_accuracy.png)
+
 | configuration | /156 | /138 no `numeric` | /120 no `numeric`, no tone | s/case (CPU VM) |
 |---|---:|---:|---:|---:|
 | Jev 1.13 (official run) | 144 | 135 | 117 | network |
-| 4B Q8 think | 141 | **129** | 116 | 46 |
-| 4B-Thinking-2507 Q4_K_M think | 142 | 129 | 113 | 118 |
 | 8B Q8 short think (read at 128) | 144 | 133 | 115 | 29 |
+| 4B-Thinking-2507 Q4_K_M think | 142 | 129 | 113 | 118 |
+| 4B Q8 think | 141 | **129** | 116 | 46 |
 | 8B Q8 fast | 132 | 126 | 108 | 4.1 |
 | 4B Q8 fast | 123 | 115 | 108 | 7.5 |
 
@@ -81,39 +86,46 @@ lower bound > −3 points. Holm family = the four arms.
 
 | arm | correct /900 | Δ vs Jev (pts) | 95 % CI (conservative) | only Jev / only model | McNemar p | Jev level | beats | s/question (RX 7600, median) |
 |---|---:|---:|---|---|---:|---|---|---:|
+| Jev 1.13 (API) | 841 | — | — | — | — | reference | — | network |
+| **4B Q8 think (≤1024)** | **816** | **−2.8** | [−5.0; −0.6] | 61 / 36 | 0.014 | no | no | 7.3 |
+| 8B Q8 short think (≤128) | 804 | −4.1 | [−6.2; −2.1] | 61 / 24 | < 0.001 | no | no | 11.6 |
 | 8B Q8 fast (primary) | 782 | −6.6 | [−8.9; −4.3] | 87 / 28 | < 0.001 | no | no | **0.48** |
 | 4B Q8 fast | 726 | −12.8 | [−15.6; −10.0] | 144 / 29 | < 0.001 | no | no | 0.29 |
-| 8B Q8 short think (≤128) | 804 | −4.1 | [−6.2; −2.1] | 61 / 24 | < 0.001 | no | no | 11.6 |
-| **4B Q8 think (≤1024)** | **816** | **−2.8** | [−5.0; −0.6] | 61 / 36 | 0.014 | no | no | 7.3 |
 
 - **No arm reaches Jev level.** The closest is 4B Q8 think: point estimate inside the margin, lower bound −5.0.
 - **Thinking helps both sizes:** 4B 726 → 816; 8B 782 → 804 (descriptive: 8B short − 8B fast = +2.4 points,
   CI [0.7; 4.3]).
 
+![test-3 accuracy](img/test3_accuracy.png)
+
+![accuracy vs latency](img/accuracy_vs_latency.png)
+
 ### By level (Δ vs Jev, points)
 
 | arm | N1 (170) | N2 (363) | N3 (367) |
 |---|---:|---:|---:|
+| 4B Q8 think | −2.4 | −3.9 | −1.9 |
+| 8B Q8 short think | 0.0 (Jev level) | −3.6 | −6.5 |
 | 8B Q8 fast | −2.9 | −6.6 | −8.2 |
 | 4B Q8 fast | −7.1 | −14.0 | −14.2 |
-| 8B Q8 short think | 0.0 (Jev level) | −3.6 | −6.5 |
-| 4B Q8 think | −2.4 | −3.9 | −1.9 |
 
 For the fast arms the gap grows with difficulty; 4B Q8 think is the only arm without that gradient.
 
 ### By domain (correct /100; margin −8 points)
 
-| domain | Jev | 8B Q8 fast | 4B Q8 fast | 8B Q8 short think | 4B Q8 think |
+![test-3 per domain](img/test3_per_domain.png)
+
+| domain | Jev | 4B Q8 think | 8B Q8 short think | 8B Q8 fast | 4B Q8 fast |
 |---|---:|---:|---:|---:|---:|
-| factual | 100 (ceiling) | 91 | 91 | 96 | 93 |
-| numeric | 80 | 77 | 72 | 77 | **98 (beats Jev)** |
-| deterministic | 95 | 82 | 88 | 93 | 92 |
-| sentence | 98 (ceiling) | 81 | 82 | 85 | 90 |
-| sentiment | 90 | 87 | 86 | 88 | 85 |
-| subjective_tone | 97 (ceiling) | 92 | **52** | 92 | 87 |
-| robotic_style | 88 | 84 | 76 | 84 | 84 |
-| noul_refund | 93 | 92 | 84 | 93 | 91 |
-| score_urgency | 100 (ceiling) | 96 | 95 | 96 | 96 |
+| factual | 100 (ceiling) | 93 | 96 | 91 | 91 |
+| numeric | 80 | **98 (beats Jev)** | 77 | 77 | 72 |
+| deterministic | 95 | 92 | 93 | 82 | 88 |
+| sentence | 98 (ceiling) | 90 | 85 | 81 | 82 |
+| sentiment | 90 | 85 | 88 | 87 | 86 |
+| subjective_tone | 97 (ceiling) | 87 | 92 | 92 | **52** |
+| robotic_style | 88 | 84 | 84 | 84 | 76 |
+| noul_refund | 93 | 91 | 93 | 92 | 84 |
+| score_urgency | 100 (ceiling) | 96 | 96 | 96 | 95 |
 
 - **Only "beats":** 4B Q8 think on `numeric`, 98 vs 80, +18 [9.7; 27.0], significant after Holm over 9 domains.
   Arithmetic is Jev's weak spot and thinking solves it.
@@ -125,10 +137,10 @@ For the fast arms the gap grows with difficulty; 4B Q8 think is the only arm wit
 
 | arm | mean abs. `score` level error | `noul` recall false / true | TV on `random` | Δ constructed | Δ dataset (74) | Δ judged | Δ unanimous R1=R2 |
 |---|---:|---|---:|---:|---:|---:|---:|
+| 4B Q8 think | 0.04 | 0.87 / 0.97 | 0.36 | +2.7 | −2.7 | −5.9 | −5.8 |
+| 8B Q8 short think | 0.05 | 0.92 / 0.95 | 0.48 | −3.0 | +2.7 | −5.7 | −4.4 |
 | 8B Q8 fast | 0.06 | 0.94 / 0.89 | 0.46 | −8.3 | +4.1 | −7.0 | −5.8 |
 | 4B Q8 fast | 0.05 | **0.76** / 0.97 | 0.51 | −8.0 | −6.8 | −16.3 | −15.3 |
-| 8B Q8 short think | 0.05 | 0.92 / 0.95 | 0.48 | −3.0 | +2.7 | −5.7 | −4.4 |
-| 4B Q8 think | 0.04 | 0.87 / 0.97 | 0.36 | +2.7 | −2.7 | −5.9 | −5.8 |
 
 Full tables per level, domain and stratum: `reports/test-3/results.md` / `results.json`.
 
@@ -136,10 +148,10 @@ Full tables per level, domain and stratum: `reports/test-3/results.md` / `result
 
 | arm | median s/question | total (953 questions) | thought length (median) | closes `</think>` by itself | peak RAM |
 |---|---:|---:|---:|---:|---:|
+| 4B Q8 think | 7.3 (mean 9.1) | ~2.4 h | 269 | 904 / 953 | 13.1 GB |
+| 8B Q8 short think | 11.6 | ~3.1 h | 128 (cap) | 26 / 953 | 17.0 GB |
 | 8B Q8 fast (30/36 layers on GPU) | 0.48 | ~8 min | — | — | 17.0 GB |
 | 4B Q8 fast | 0.29 | ~5 min | — | — | 13.0 GB |
-| 8B Q8 short think | 11.6 | ~3.1 h | 128 (cap) | 26 / 953 | 17.0 GB |
-| 4B Q8 think | 7.3 (mean 9.1) | ~2.4 h | 269 | 904 / 953 | 13.1 GB |
 
 Jev API: 649 requests, 389 251 input tokens, ~0.016 USD at 0.042 USD per million input tokens (an assumed price that
 was not confirmed with the vendor).
@@ -161,13 +173,13 @@ was then validated on test-2 with existing predictions (pre-registered before co
 
 | configuration | /156 | /138 no `numeric` | s/question (test-2 mix) | s/question (test-3 mix) |
 |---|---:|---:|---:|---:|
+| Jev | 144 | 135 | — | — |
+| 8B Q8 short think | 144 | 133 | 11.62 | 11.62 |
 | **E** | **144** | 132 | 4.94 | 5.34 |
+| 4B Q8 think | 141 | 129 | 8.26 | 8.30 |
 | V | 138 | 126 | 1.34 | 1.41 |
 | 8B Q8 fast | 132 | 126 | 0.48 | 0.48 |
 | 4B Q8 fast | 123 | 115 | 0.29 | 0.29 |
-| 8B Q8 short think | 144 | 133 | 11.62 | 11.62 |
-| 4B Q8 think | 141 | 129 | 8.26 | 8.30 |
-| Jev | 144 | 135 | — | — |
 
 Times are estimates: per-domain mean times measured on the RX 7600 in test-3, weighted by each set's domain mix.
 
@@ -181,16 +193,16 @@ Times are estimates: per-domain mean times measured on the RX 7600 in test-3, we
 | E − 4B Q8 think | +1.9 | [−1.9; 6.4] | 7 / 4 | 0.55 |
 | V − 8B Q8 fast | +3.8 | [0.6; 7.7] | 7 / 1 | 0.07 |
 
-| domain | E | V | Jev | 8B Q8 fast | 4B Q8 fast | 8B Q8 short think | 4B Q8 think |
+| domain | E | Jev | 8B Q8 short think | 4B Q8 think | V | 8B Q8 fast | 4B Q8 fast |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| factual | 16/18 | 14/18 | 17/18 | 14/18 | 17/18 | 16/18 | 17/18 |
-| noul_refund | 23/24 | 23/24 | 23/24 | 23/24 | 22/24 | 22/24 | 23/24 |
-| numeric | 12/18 | 12/18 | 9/18 | 6/18 | 8/18 | 11/18 | 12/18 |
-| robotic_style | 15/18 | 15/18 | 17/18 | 15/18 | 14/18 | 17/18 | 17/18 |
-| score_urgency | 24/24 | 24/24 | 24/24 | 24/24 | 24/24 | 24/24 | 23/24 |
-| sentence | 18/18 | 14/18 | 18/18 | 14/18 | 17/18 | 18/18 | 18/18 |
-| sentiment | 18/18 | 18/18 | 18/18 | 18/18 | 14/18 | 18/18 | 18/18 |
-| subjective_tone | 18/18 | 18/18 | 18/18 | 18/18 | 7/18 | 18/18 | 13/18 |
+| factual | 16/18 | 17/18 | 16/18 | 17/18 | 14/18 | 14/18 | 17/18 |
+| noul_refund | 23/24 | 23/24 | 22/24 | 23/24 | 23/24 | 23/24 | 22/24 |
+| numeric | 12/18 | 9/18 | 11/18 | 12/18 | 12/18 | 6/18 | 8/18 |
+| robotic_style | 15/18 | 17/18 | 17/18 | 17/18 | 15/18 | 15/18 | 14/18 |
+| score_urgency | 24/24 | 24/24 | 24/24 | 23/24 | 24/24 | 24/24 | 24/24 |
+| sentence | 18/18 | 18/18 | 18/18 | 18/18 | 14/18 | 14/18 | 17/18 |
+| sentiment | 18/18 | 18/18 | 18/18 | 18/18 | 18/18 | 18/18 | 14/18 |
+| subjective_tone | 18/18 | 18/18 | 18/18 | 13/18 | 18/18 | 18/18 | 7/18 |
 
 Reading (declared before computing): E keeps on test-2 the order it had on test-3 relative to the best single arm
 (not worse, CI includes 0), so the post-hoc choice is **not contradicted**. No "Jev level" verdict is drawn from
@@ -231,18 +243,18 @@ cause more model switches (5–12 s each); that scenario was not measured.
 
 ## 5. Comparison with similar projects
 
-Same sealed sets, same gold, same scoring. Rows marked *pending* are being run and will be filled in from committed
-aggregate reports; nothing here is estimated. Latency is median seconds per question on the stated hardware.
+Same sealed sets, same gold, same scoring; sorted by test-3 accuracy (pending rows last). Rows marked *pending* are being run and will be filled in from committed
+aggregate reports (`reports/comparison.json`, which `scripts/make_charts.py` also reads); nothing here is estimated. Latency is median seconds per question on the stated hardware.
 
 | system | type | test-2 /156 | test-3 /900 | median s/question | hardware |
 |---|---|---:|---:|---:|---|
 | Jev 1.13 by TypeSafe (baseline, via its API) | hosted typed-decision API | 144 | 841 | network | remote |
-| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
-| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
 | local-typed-decisions `medium` (Qwen3-4B Q8_0, think ≤ 1024) | local LLM, thinking + readout | 141 | 816 | 7.3 | RX 7600 8 GB |
 | local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 144 | 804 | 11.6 | RX 7600 8 GB |
-| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
-| Julia-1 (144M encoder + decision head) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
+| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
+| Julia-1 (144M encoder + decision head, third-party) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
 | Laya multilingual (~322M, decision heads) | small model, typed heads | *pending* | *pending* | *pending* | *pending* |
 | DeBERTa-v3 zero-shot NLI classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
 | BART-large-MNLI zero-shot classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |

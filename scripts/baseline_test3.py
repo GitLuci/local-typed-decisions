@@ -111,6 +111,8 @@ def read_sealed(folder: Path):
     files = {}
     for name in ("states.jsonl", "questions.jsonl"):
         data = (folder / name).read_bytes()
+        if hashlib.sha256(data).hexdigest() == man.get("shipped_redacted", {}).get("sha256", {}).get(name):
+            raise SystemExit(f"{name}: GoEmotions texts are not restored; run scripts/fetch_goemotions.py first")
         if hashlib.sha256(data).hexdigest() != man["sha256"][name]:
             raise SystemExit(f"{name}: sha256 differs from the sealed manifest; refusing to run")
         files[name] = [json.loads(l) for l in data.decode("utf-8").splitlines() if l.strip()]
