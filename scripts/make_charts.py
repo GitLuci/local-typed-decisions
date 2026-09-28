@@ -55,7 +55,8 @@ def data():
     rows2.append({"name": "routed (measured)", "k": runtime["correct_156"], "kind": "routed"})
     for s in load("reports/comparison.json")["systems"]:
         if s.get("test3_900") is not None:
-            rows3.append({"name": s["name"], "k": s["test3_900"], "kind": "other", "s": s.get("median_s")})
+            rows3.append({"name": s["name"], "k": s["test3_900"], "kind": "other", "s": s.get("median_s"),
+                          "hw": "CPU" if "CPU" in (s.get("hardware") or "") else s.get("hardware")})
         if s.get("test2_156") is not None:
             rows2.append({"name": s["name"], "k": s["test2_156"], "kind": "other"})
     domains = {}
@@ -88,7 +89,7 @@ def bars(rows, n, title, path):
 
 
 def scatter(rows, path):
-    fig, ax = plt.subplots(figsize=(7, 4.5))
+    fig, ax = plt.subplots(figsize=(9, 5.5))
     jev = next(r for r in rows if r["kind"] == "jev")
     ax.axhline(100 * jev["k"] / 900, color=COLORS["jev"], ls="--", lw=1.2,
                label=f"Jev 1.13 (API): {jev['k']}/900 (latency: network, not comparable)")
@@ -97,9 +98,12 @@ def scatter(rows, path):
             continue
         a = 100 * r["k"] / 900
         ax.scatter(r["s"], a, s=60, color=COLORS[r["kind"]], zorder=3)
-        ax.annotate(r["name"], (r["s"], a), textcoords="offset points", xytext=(6, -4), fontsize=9)
+        up = r["kind"] == "routed"
+        ax.annotate(r["name"] + (f" ({r['hw']})" if r.get("hw") else ""), (r["s"], a), textcoords="offset points",
+                    xytext=(-8, -4) if up else (6, -4), ha="right" if up else "left", fontsize=9)
     ax.set_xscale("log")
-    ax.set_xlabel("median seconds per question (log scale; local modes on RX 7600 8 GB)")
+    ax.set_xlabel("median seconds per question (log scale)\n"
+                  "our modes: RX 7600 8 GB GPU; grey: other systems on CPU (Ryzen 5 5600X)")
     ax.set_ylabel("test-3 accuracy (%)")
     ax.set_title("Accuracy vs latency (test-3, 900 sealed questions)")
     ax.grid(alpha=0.3, which="both")

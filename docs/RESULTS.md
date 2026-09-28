@@ -243,8 +243,9 @@ cause more model switches (5–12 s each); that scenario was not measured.
 
 ## 5. Comparison with similar projects
 
-Same sealed sets, same gold, same scoring; sorted by test-3 accuracy (pending rows last). Rows marked *pending* are being run and will be filled in from committed
-aggregate reports (`reports/comparison.json`, which `scripts/make_charts.py` also reads); nothing here is estimated. Latency is median seconds per question on the stated hardware.
+Same sealed sets, same gold, same scoring; sorted by test-3 accuracy (rows still pending on test-3 last, by test-2). Rows marked *pending* are still
+running. The numbers for the other systems are recorded in `reports/comparison.json` (which `scripts/make_charts.py`
+reads); their per-system run reports are not in this repository yet. Nothing here is estimated. Latency is median seconds per question on the stated hardware.
 
 | system | type | test-2 /156 | test-3 /900 | median s/question | hardware |
 |---|---|---:|---:|---:|---|
@@ -254,10 +255,18 @@ aggregate reports (`reports/comparison.json`, which `scripts/make_charts.py` als
 | local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 144 | 804 | 11.6 | RX 7600 8 GB |
 | local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
 | local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
-| Julia-1 (144M encoder + decision head, third-party) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
-| Laya multilingual (~322M, decision heads) | small model, typed heads | *pending* | *pending* | *pending* | *pending* |
-| DeBERTa-v3 zero-shot NLI classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
-| BART-large-MNLI zero-shot classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
+| Laya multilingual (~322M, decision heads, third-party) | small model, typed heads | 86 | 462 | 0.13 | CPU (Ryzen 5 5600X) |
+| BART-large-MNLI zero-shot classifier | zero-shot NLI | 57 | 358 | 0.95 | CPU (Ryzen 5 5600X) |
+| Julia-1 (144M encoder + decision head, third-party) | small encoder, typed API | 62 | 322 | 0.06 | CPU (Ryzen 5 5600X) |
+| DeBERTa-v3-large zero-shot classifier | zero-shot NLI | 59 | *pending* | *pending* | CPU (Ryzen 5 5600X) |
+| mDeBERTa-v3 zero-shot classifier (multilingual) | zero-shot NLI | 55 | *pending* | *pending* | CPU (Ryzen 5 5600X) |
+
+The other systems were run by the maintainers on CPU (AMD Ryzen 5 5600X), pre-registered, on the same sealed sets
+with the same gold and scoring; the Jev, `medium` and `fast` reference values were reproduced in the same run. Every
+measured system differs from Jev, `fast` and `medium` with McNemar p < 1e-60 on test-3. mDeBERTa-v3 was added
+because the test-3 texts are mostly Portuguese. Their latencies are CPU numbers and are not directly comparable with
+our GPU numbers. **GLiClass was not included:** it follows the same zero-shot label-matching paradigm as the NLI
+classifiers, has no `Score` or `Noul` equivalent, and needs a third-party library.
 
 test-2 numbers for the local modes are from the CPU engine (llama-cpp-python) except `routed`, which was measured
 with the released GPU runtime; on the GPU engine `ultra-fast` scores 120. The `routed` test-3 number is combined

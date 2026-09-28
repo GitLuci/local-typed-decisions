@@ -1,9 +1,13 @@
 {
-  "note": "Other systems evaluated on the same sealed sets. Fill in the numbers and 'source' (a committed report) when a run is done; scripts/make_charts.py picks up every row whose value is not null.",
+  "note": "Other systems evaluated on the same sealed sets with the same gold and scoring, pre-registered, by the maintainers on CPU (AMD Ryzen 5 5600X). The Jev, medium and fast reference values were reproduced in the same run. Every measured system differs from Jev, fast and medium with McNemar p < 1e-60 on test-3. Rows with null values are pending; scripts/make_charts.py picks up every non-null value.",
+  "not_included": {
+    "GLiClass": "Same zero-shot label-matching paradigm as the NLI classifiers; it has no Score or Noul equivalent and needs a third-party library."
+  },
   "systems": [
-    {"name": "Julia-1", "kind": "144M encoder + decision head (third-party)", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null},
-    {"name": "Laya multilingual", "kind": "~322M, dedicated decision heads (third-party)", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null},
-    {"name": "DeBERTa-v3 zero-shot", "kind": "zero-shot NLI classifier", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null},
-    {"name": "BART-large-MNLI", "kind": "zero-shot NLI classifier", "test2_156": null, "test3_900": null, "median_s": null, "hardware": null, "source": null}
+    {"name": "Laya multilingual", "kind": "~322M, dedicated decision heads (third-party)", "test2_156": 86, "test3_900": 462, "median_s": 0.13, "hardware": "CPU (Ryzen 5 5600X)", "source": "maintainers' pre-registered CPU run"},
+    {"name": "BART-large-MNLI", "kind": "zero-shot NLI classifier", "test2_156": 57, "test3_900": 358, "median_s": 0.95, "hardware": "CPU (Ryzen 5 5600X)", "source": "maintainers' pre-registered CPU run"},
+    {"name": "Julia-1", "kind": "144M encoder + decision head (third-party)", "test2_156": 62, "test3_900": 322, "median_s": 0.06, "hardware": "CPU (Ryzen 5 5600X)", "source": "maintainers' pre-registered CPU run"},
+    {"name": "DeBERTa-v3-large zero-shot", "kind": "zero-shot NLI classifier", "test2_156": 59, "test3_900": null, "median_s": null, "hardware": "CPU (Ryzen 5 5600X)", "source": "maintainers' pre-registered CPU run (test-3 pending)"},
+    {"name": "mDeBERTa-v3 zero-shot", "kind": "multilingual zero-shot NLI classifier", "test2_156": 55, "test3_900": null, "median_s": null, "hardware": "CPU (Ryzen 5 5600X)", "source": "maintainers' pre-registered CPU run (test-3 pending)"}
   ]
 }
