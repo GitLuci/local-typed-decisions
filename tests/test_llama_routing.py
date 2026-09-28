@@ -111,7 +111,7 @@ def test_all_budgets_checked_before_first_model_launch():
         router.close()
 
 
-@pytest.mark.parametrize("mode", ["ultra", "fast", "medium", "slow"])
+@pytest.mark.parametrize("mode", ["ultra-fast", "fast", "medium", "slow"])
 def test_fixed_mode_with_lazy_server_config_and_alias(mode):
     router = make_routed_backend(mode=mode)
     try:
@@ -142,10 +142,10 @@ def test_route_map_is_config_data_and_default_is_explicit():
     router = make_routed_backend()
     router.close()
     custom = RoutedDecisionModel(mode="routed", servers={"4b": SERVERS["4b"]},
-        routes={"custom-domain": "ultra"}, default_domain="custom-domain", server_pool=FakePool(),
-        backend_factory=lambda **kw: LlamaServerDecisionModel(**kw, builder=FakeBuilder(), transport=httpx.MockTransport(FakeHTTP("ultra"))))
+        routes={"custom-domain": "ultra-fast"}, default_domain="custom-domain", server_pool=FakePool(),
+        backend_factory=lambda **kw: LlamaServerDecisionModel(**kw, builder=FakeBuilder(), transport=httpx.MockTransport(FakeHTTP("ultra-fast"))))
     try:
-        assert custom.predict("x", {"q": QUESTION})["metadata"]["routing"]["q"]["mode"] == "ultra"
+        assert custom.predict("x", {"q": QUESTION})["metadata"]["routing"]["q"]["mode"] == "ultra-fast"
     finally:
         custom.close()
 
@@ -188,7 +188,7 @@ def managed(monkeypatch, tmp_path):
     executable = tmp_path / "llama-server.exe"
     executable.write_text("fake, never executed")
     servers = copy.deepcopy(SERVERS)
-    for key, mode in (("4b", "ultra"), ("8b", "fast")):
+    for key, mode in (("4b", "ultra-fast"), ("8b", "fast")):
         model = tmp_path / PROFILES[mode]["model"]
         model.write_text("fake GGUF, never loaded")
         servers[key]["launch"] = {"executable": executable, "model_path": model, "startup_timeout": 1}
@@ -282,11 +282,11 @@ def test_router_with_managed_pool_launches_two_models_for_four_modes(managed):
         options.setdefault("builder", FakeBuilder())
         return LlamaServerDecisionModel(**options, transport=httpx.MockTransport(FakeHTTP(options["mode"])))
     router = RoutedDecisionModel(mode="routed", servers=pool.servers,
-        routes={mode: mode for mode in ("ultra", "fast", "medium", "slow")},
+        routes={mode: mode for mode in ("ultra-fast", "fast", "medium", "slow")},
         backend_factory=factory, server_pool=pool)
     assert events == []
     try:
-        qs = {mode: QUESTION for mode in ("fast", "medium", "slow", "ultra")}
+        qs = {mode: QUESTION for mode in ("fast", "medium", "slow", "ultra-fast")}
         result = router.predict("x", qs, domains={mode: mode for mode in qs})
         assert list(result["answers"]) == list(qs)
         assert events == [("start", "4b"), ("terminate", "4b"), ("start", "8b")]
@@ -307,7 +307,7 @@ def test_config_resolves_nested_paths_and_keeps_routes(tmp_path):
     assert loaded["servers"]["4b"]["tokenizer_path"] == tmp_path.parent / "tokenizer"
 
 
-@pytest.mark.parametrize("mode", ["ultra", "fast", "medium", "slow", "routed"])
+@pytest.mark.parametrize("mode", ["ultra-fast", "fast", "medium", "slow", "routed"])
 def test_shipped_configs_create_no_backend_or_process(mode):
     config = load_config(Path(__file__).resolve().parents[1] / "examples" / f"llama-{mode}.json")
     runtime = create_backend(**config)

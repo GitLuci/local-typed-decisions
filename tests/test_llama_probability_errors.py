@@ -36,7 +36,7 @@ def backend(mode="fast", **options):
     return model
 
 
-@pytest.mark.parametrize("mode,expected", [("ultra", 20), ("fast", 20),
+@pytest.mark.parametrize("mode,expected", [("ultra-fast", 20), ("fast", 20),
     ("medium", 256), ("slow", 256)])
 def test_default_top_n_and_config_override(mode, expected):
     for options, count in [({}, expected), ({"n_probs": 37}, 37)]:

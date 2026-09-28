@@ -8,7 +8,7 @@ Arm / mode names used throughout:
 
 | name | model | decision | runtime mode |
 |---|---|---|---|
-| 4B Q8 fast | Qwen3-4B Q8_0 | one forward, read the option letter | `ultra` |
+| 4B Q8 fast | Qwen3-4B Q8_0 | one forward, read the option letter | `ultra-fast` |
 | 8B Q8 fast | Qwen3-8B Q8_0 | one forward, read the option letter | `fast` |
 | 4B Q8 think | Qwen3-4B Q8_0 | think up to 1024 tokens, then read the letter | `medium` |
 | 8B Q8 short think | Qwen3-8B Q8_0 | think up to 128 tokens, then read the letter | `slow` |
@@ -203,7 +203,7 @@ pre-registered plan. Source: `reports/runtime-measurement/summary.json`.
 
 | step | result | pre-registered criterion | |
 |---|---|---|---|
-| `ultra` (4B, 168) | argmax equal to the CPU test-2 predictions in **163/168 (97.0 %)** | ≥ 99 % | missed |
+| `ultra-fast` (4B, 168) | argmax equal to the CPU test-2 predictions in **163/168 (97.0 %)** | ≥ 99 % | missed |
 | `fast` (8B, 168) | argmax equal in **166/168 (98.8 %)** | ≥ 99 % | missed by 1 case |
 | `medium`, `slow` (3 cases each) | all answered, all option letters present | respond | met |
 | **`routed` (168)** | **145/156** correct (1 question failed and counts as wrong) | 144 ± 2 | met |
@@ -229,7 +229,29 @@ per-question `errors` entry instead of failing the whole request. (2) The routed
 `"random": "fast"` was added (these cases are scored by TV, not accuracy). Traffic with shuffled domains would
 cause more model switches (5–12 s each); that scenario was not measured.
 
-## 5. Caveats
+## 5. Comparison with similar projects
+
+Same sealed sets, same gold, same scoring. Rows marked *pending* are being run and will be filled in from committed
+aggregate reports; nothing here is estimated. Latency is median seconds per question on the stated hardware.
+
+| system | type | test-2 /156 | test-3 /900 | median s/question | hardware |
+|---|---|---:|---:|---:|---|
+| Jev 1.13 by TypeSafe (baseline, via its API) | hosted typed-decision API | 144 | 841 | network | remote |
+| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
+| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `medium` (Qwen3-4B Q8_0, think ≤ 1024) | local LLM, thinking + readout | 141 | 816 | 7.3 | RX 7600 8 GB |
+| local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 144 | 804 | 11.6 | RX 7600 8 GB |
+| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
+| Julia-1 (144M encoder + decision head) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
+| Laya multilingual (~322M, decision heads) | small model, typed heads | *pending* | *pending* | *pending* | *pending* |
+| DeBERTa-v3 zero-shot NLI classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
+| BART-large-MNLI zero-shot classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
+
+test-2 numbers for the local modes are from the CPU engine (llama-cpp-python) except `routed`, which was measured
+with the released GPU runtime; on the GPU engine `ultra-fast` scores 120. The `routed` test-3 number is combined
+from the four modes with a map chosen on test-3, so it is optimistic.
+
+## 6. Caveats
 
 1. **Authored-item gold has no human audit.** The judged stratum (526 of 900) is validated by agreement between two
    blind LLM labelers (97.4 %, κ 0.973 on the first package; 35/35 on the second) and by an LLM adjudicator

@@ -11,7 +11,7 @@
   },
   "runs": [
     {
-      "mode": "ultra",
+      "mode": "ultra-fast",
       "exit": "normal",
       "request_seconds": [
         12.044,

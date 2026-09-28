@@ -16,7 +16,7 @@ from .runtime import ROOT, answer_from_probabilities, validate
 
 CLOSE = "\n</think>\n\n"
 PROFILES = {
-    "ultra": {"model": "qwen3-4b-Q8_0.gguf", "tokenizer": "models/qwen3-4b", "port": 8791, "model_key": "4b", "budget": 0},
+    "ultra-fast": {"model": "qwen3-4b-Q8_0.gguf", "tokenizer": "models/qwen3-4b", "port": 8791, "model_key": "4b", "budget": 0},
     "fast": {"model": "qwen3-8b-Q8_0.gguf", "tokenizer": "models/qwen3-8b", "port": 8790, "model_key": "8b", "budget": 0},
     "medium": {"model": "qwen3-4b-Q8_0.gguf", "tokenizer": "models/qwen3-4b", "port": 8791, "model_key": "4b", "budget": 1024},
     "slow": {"model": "qwen3-8b-Q8_0.gguf", "tokenizer": "models/qwen3-8b", "port": 8790, "model_key": "8b", "budget": 128},
@@ -143,7 +143,7 @@ class LlamaServerDecisionModel:
     def __init__(self, mode="fast", url=None, tokenizer_path=None, timeout=3600,
                  seed=20260925, n_probs=None, *, builder=None, transport=None):
         if not isinstance(mode, str) or mode not in PROFILES:
-            raise ValueError("mode must be ultra, fast, medium or slow")
+            raise ValueError("mode must be ultra-fast, fast, medium or slow")
         if n_probs is None:
             n_probs = 256 if PROFILES[mode]["budget"] else 20
         if type(seed) is not int or not 0 <= seed < 2**32 - 1:

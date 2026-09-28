@@ -8,7 +8,7 @@ is not committed).
 Argmax agreement with the original test-2 predictions needs the per-item fast-path predictions (not shipped; pass
 --test2 with a folder that has fastpath-4b-q8_0/ and fastpath-8b-q8_0/). Without them that comparison is skipped.
 
-    python scripts/runtime_measure.py [--modes ultra fast medium slow routed] [--server-exe tools/llama-b11205-vulkan/llama-server.exe]
+    python scripts/runtime_measure.py [--modes ultra-fast fast medium slow routed] [--server-exe tools/llama-b11205-vulkan/llama-server.exe]
 
 The published summary also measured the former alias of `medium` (3 cases, identical implementation and timings
 within noise); that alias no longer exists and is not part of the plan.
@@ -29,7 +29,7 @@ OUT = ROOT / "reports/runtime-measurement"
 CFG = OUT / "configs"
 EXE = ROOT / "tools/llama-b11205-vulkan/llama-server.exe"
 CASES = ROOT / "examples/test-2-scenarios.jsonl"
-PLAN = (("ultra", 168), ("medium", 3), ("fast", 168), ("slow", 3), ("routed", 168))
+PLAN = (("ultra-fast", 168), ("medium", 3), ("fast", 168), ("slow", 3), ("routed", 168))
 
 
 def configs(exe):
@@ -135,7 +135,7 @@ def main():
     cases = [json.loads(l) for l in CASES.read_text(encoding="utf-8").splitlines() if l.strip()]
     assert len(cases) == 168
     ref = {}
-    for mode, folder in (("ultra", "fastpath-4b-q8_0"), ("fast", "fastpath-8b-q8_0")):
+    for mode, folder in (("ultra-fast", "fastpath-4b-q8_0"), ("fast", "fastpath-8b-q8_0")):
         p = args.test2 / folder / "predictions.jsonl"
         if p.exists():
             ref[mode] = {r["id"]: test2_argmax(r) for r in map(json.loads, p.open(encoding="utf-8"))}

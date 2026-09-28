@@ -1,7 +1,7 @@
 {
   "preregistration": "docs/RESULTS.md (runtime measurement)",
   "steps": {
-    "ultra": {
+    "ultra-fast": {
       "cases": 168,
       "errors": 0,
       "total_s": 62.4,

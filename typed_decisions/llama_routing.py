@@ -17,7 +17,7 @@ from .process_job import ProcessJob
 
 def canonical(mode):
     if not isinstance(mode, str) or mode not in PROFILES:
-        raise ValueError("route mode must be ultra, fast, medium or slow")
+        raise ValueError("route mode must be ultra-fast, fast, medium or slow")
     return mode
 
 
@@ -67,7 +67,7 @@ class ServerPool:
                 raise ValueError("invalid launch configuration")
             if not {"executable", "model_path"} <= launch.keys():
                 raise ValueError("launch requires executable and model_path")
-            expected = PROFILES["ultra" if key == "4b" else "fast"]["model"]
+            expected = PROFILES["ultra-fast" if key == "4b" else "fast"]["model"]
             if Path(launch["model_path"]).name != expected:
                 raise ValueError(f"{key} requires {expected}")
             for name, default, low, high in (("gpu_layers", 99 if key == "4b" else 30, 0, 99), ("threads", 4, 1, 8),

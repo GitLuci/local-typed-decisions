@@ -112,7 +112,7 @@ def test_malformed_probabilities_rejected(candidate):
         first_position_logprobs({"completion_probabilities": [{"probs": [candidate]}]})
 
 
-@pytest.mark.parametrize("mode", ["ultra", "fast", "medium", "slow"])
+@pytest.mark.parametrize("mode", ["ultra-fast", "fast", "medium", "slow"])
 def test_typed_answers_independence_usage_and_thinking(mode):
     model = make_fake_backend(mode)
     body = {"state": "state", "questions": {"q": QUESTION,

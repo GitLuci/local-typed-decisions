@@ -36,7 +36,7 @@ questions of test-3 (Jev: 841/900).
 
 | mode | model | how it decides | test-3 /900 | median s/question | per request in `serve`¹ |
 |---|---|---|---:|---:|---:|
-| `ultra` | Qwen3-4B Q8_0 (4.3 GB) | one forward, read the letter | 726 | 0.29 | 0.48–0.54 s |
+| `ultra-fast` | Qwen3-4B Q8_0 (4.3 GB) | one forward, read the letter | 726 | 0.29 | 0.48–0.54 s |
 | `fast` | Qwen3-8B Q8_0 (8.7 GB, 30/36 layers on GPU) | one forward, read the letter | 782 | 0.48 | 0.57–0.63 s |
 | `medium` | Qwen3-4B Q8_0 | think ≤ 1024 tokens (median 269), then read | **816** | 7.3 | 6.0–8.7 s |
 | `slow` | Qwen3-8B Q8_0 | think ≤ 128 tokens, then read | 804 | 11.6 | 12.4–12.5 s |
@@ -63,11 +63,11 @@ conservative 95 % CI of Δ above −3 points (pre-registered). **No local arm re
 | 4B Q8 think (`medium`) | **816** | **−2.8** | [−5.0; −0.6] | no |
 | 8B Q8 short think (`slow`) | 804 | −4.1 | [−6.2; −2.1] | no |
 | 8B Q8 fast (`fast`) | 782 | −6.6 | [−8.9; −4.3] | no |
-| 4B Q8 fast (`ultra`) | 726 | −12.8 | [−15.6; −10.0] | no |
+| 4B Q8 fast (`ultra-fast`) | 726 | −12.8 | [−15.6; −10.0] | no |
 
 Per domain (correct /100):
 
-| domain | Jev | `fast` | `ultra` | `slow` | `medium` | routed to |
+| domain | Jev | `fast` | `ultra-fast` | `slow` | `medium` | routed to |
 |---|---:|---:|---:|---:|---:|---|
 | factual | 100 | 91 | 91 | 96 | 93 | `slow` |
 | numeric | 80 | 77 | 72 | 77 | **98** (beats Jev, +18 [9.7; 27.0]) | `medium` |
@@ -95,10 +95,32 @@ see caveats.
 | 8B Q8 short think (`slow`) | 144 | 133 |
 | 4B Q8 think (`medium`) | 141 | 129 |
 | 8B Q8 fast (`fast`) | 132 | 126 |
-| 4B Q8 fast (`ultra`) | 123 (120 on the GPU engine) | 115 |
+| 4B Q8 fast (`ultra-fast`) | 123 (120 on the GPU engine) | 115 |
 
 Per-domain test-2 tables, paired comparisons (routed − Jev: +0.0 [−3.8; 3.8]), earlier models and every caveat:
 [docs/RESULTS.md](docs/RESULTS.md).
+
+### Comparison with similar projects
+
+Same sealed sets, same gold, same scoring. Rows marked *pending* are being run and will be filled in from committed
+aggregate reports; nothing here is estimated. Latency is median seconds per question on the stated hardware.
+
+| system | type | test-2 /156 | test-3 /900 | median s/question | hardware |
+|---|---|---:|---:|---:|---|
+| Jev 1.13 by TypeSafe (baseline, via its API) | hosted typed-decision API | 144 | 841 | network | remote |
+| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
+| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `medium` (Qwen3-4B Q8_0, think ≤ 1024) | local LLM, thinking + readout | 141 | 816 | 7.3 | RX 7600 8 GB |
+| local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 144 | 804 | 11.6 | RX 7600 8 GB |
+| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
+| Julia-1 (144M encoder + decision head) | small encoder, typed API | *pending* | *pending* | *pending* | *pending* |
+| Laya multilingual (~322M, decision heads) | small model, typed heads | *pending* | *pending* | *pending* | *pending* |
+| DeBERTa-v3 zero-shot NLI classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
+| BART-large-MNLI zero-shot classifier | zero-shot NLI | *pending* | *pending* | *pending* | *pending* |
+
+test-2 numbers for the local modes are from the CPU engine (llama-cpp-python) except `routed`, which was measured
+with the released GPU runtime; on the GPU engine `ultra-fast` scores 120. The `routed` test-3 number is combined
+from the four modes with a map chosen on test-3, so it is optimistic.
 
 ### Caveats (short)
 

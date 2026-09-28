@@ -50,7 +50,7 @@ Directions, none measured end to end yet:
 ## 3. `--load-mode none` with full offload
 
 The launcher adds `--load-mode none` only with partial offload (fewer than 37 GPU layers). With full offload the
-4B GGUF stays memory-mapped in RAM as well, which is why `ultra`/`medium` show the highest RAM peak in the serve
+4B GGUF stays memory-mapped in RAM as well, which is why `ultra-fast`/`medium` show the highest RAM peak in the serve
 smoke (5.0 GB) although the whole model is on the card. With partial offload the flag already makes a large
 difference for the 8B (≈ 2.6 GB of RAM instead of ≈ 10.4 GB). Applying `--load-mode none` in all cases should cut RAM; it
 needs a measurement (RAM, load time, identical answers) before becoming the default.
@@ -59,7 +59,7 @@ needs a measurement (RAM, load time, identical answers) before becoming the defa
 
 `routed` requires the caller to declare each question's domain (`domains` map); unknown or missing domains are
 rejected. For general use the runtime needs either:
-- a cheap domain classifier (e.g. the `ultra` model answering a `Choice` over the domain list, or rules on the
+- a cheap domain classifier (e.g. the `ultra-fast` model answering a `Choice` over the domain list, or rules on the
   question schema), measured for routing accuracy and for the end-to-end accuracy it induces; or
 - a `default_domain` policy documented per deployment.
 

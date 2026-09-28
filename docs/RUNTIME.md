@@ -6,7 +6,7 @@ models, and questions are always answered independently of each other.
 
 | Mode | Model | Decision | Example port |
 | --- | --- | --- | --- |
-| `ultra` | Qwen3-4B Q8_0 | no thinking; read the option-letter probabilities | 8791 |
+| `ultra-fast` | Qwen3-4B Q8_0 | no thinking; read the option-letter probabilities | 8791 |
 | `fast` | Qwen3-8B Q8_0 | no thinking; read the option-letter probabilities | 8790 |
 | `medium` | Qwen3-4B Q8_0 | think up to 1024 tokens, then read the letters | 8791 |
 | `slow` | Qwen3-8B Q8_0 | think up to 128 tokens, then read the letters at that point | 8790 |
@@ -17,7 +17,7 @@ In thinking modes a natural `</think>` before the budget is respected; if the bu
 
 ## Configure and run
 
-Example configs: `examples/llama-{ultra,fast,medium,slow,routed}.json`. They expect the
+Example configs: `examples/llama-{ultra-fast,fast,medium,slow,routed}.json`. They expect the
 **llama.cpp b11205 Vulkan** `llama-server` executable at `tools/llama-b11205-vulkan/llama-server(.exe)`, the GGUF
 files under `models/qwen3-{4b,8b}-gguf/` and the tokenizers under `models/qwen3-{4b,8b}/` (all installed by
 `scripts/fetch_models.py`). Relative paths are resolved against the JSON file. If your binary lives elsewhere,
@@ -40,7 +40,7 @@ follow-up.
 # Routed API (the mode comes from the config)
 python -m typed_decisions serve --config examples/llama-routed.json --port 8000
 # A fixed profile on top of the same config (requests without "domains")
-python -m typed_decisions serve --config examples/llama-routed.json --mode ultra --port 8000
+python -m typed_decisions serve --config examples/llama-routed.json --mode ultra-fast --port 8000
 # One request from the CLI
 python -m typed_decisions examples/routed-request.json --backend llama-server --config examples/llama-routed.json
 ```

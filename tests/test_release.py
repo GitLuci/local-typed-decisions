@@ -18,7 +18,7 @@ from test_llama_routing import managed  # simulated processes, including lifetim
 ROOT = Path(__file__).resolve().parents[1]
 
 
-@pytest.mark.parametrize("mode", [None, "ultra", "fast", "medium", "slow", "routed"])
+@pytest.mark.parametrize("mode", [None, "ultra-fast", "fast", "medium", "slow", "routed"])
 def test_serve_selects_config_mode_without_starting_models(monkeypatch, mode):
     import typed_decisions.server as server
     import uvicorn
@@ -46,7 +46,7 @@ def test_serve_selects_config_mode_without_starting_models(monkeypatch, mode):
 
 
 @pytest.mark.parametrize("argv", [["serve"], ["serve", "--port", "0"],
-    ["--mode", "ultra"], ["serve", "--config", "unused.json", "--backend", "qwen"]])
+    ["--mode", "ultra-fast"], ["serve", "--config", "unused.json", "--backend", "qwen"]])
 def test_invalid_serve_arguments_fail_before_backend(monkeypatch, argv):
     monkeypatch.setattr(sys, "argv", ["typed_decisions", *argv])
     with pytest.raises(SystemExit) as error:
