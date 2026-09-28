@@ -48,7 +48,7 @@ def data():
         rows3.append({"name": mode, "k": a["global"]["correct_model"], "kind": "ours", "s": a["cost"]["median_ms"] / 1000})
     routed = sum(arms[MODE_ARM[routes[d]]]["by_domain"][d]["correct_model"] for d in anyarm["by_domain"])
     # routed: mean (not median) time estimated for the test-3 domain mix; most questions are fast, a few think
-    rows3.append({"name": "routed (post hoc; mean time)", "k": routed, "kind": "routed",
+    rows3.append({"name": "routed (post hoc)", "k": routed, "kind": "routed",
                   "s": router["seconds_per_question"]["E"]["test3_mix"]})
     rows2 = [{"name": "Jev 1.13 (API)", "k": router["correct"]["jev"]["156"], "kind": "jev"}]
     rows2 += [{"name": m, "k": router["correct"][a]["156"], "kind": "ours"} for a, m in ARMS.items()]
@@ -98,9 +98,10 @@ def scatter(rows, path):
             continue
         a = 100 * r["k"] / 900
         ax.scatter(r["s"], a, s=60, color=COLORS[r["kind"]], zorder=3)
-        up = r["kind"] == "routed"
-        ax.annotate(r["name"] + (f" ({r['hw']})" if r.get("hw") else ""), (r["s"], a), textcoords="offset points",
-                    xytext=(-8, -4) if up else (6, -4), ha="right" if up else "left", fontsize=9)
+        left = r["kind"] == "routed" or (r["kind"] == "other" and r["s"] > 8)  # keep labels inside the plot
+        label = r["name"] + ("; mean time" if r["kind"] == "routed" else "") + (f" ({r['hw']})" if r.get("hw") else "")
+        ax.annotate(label, (r["s"], a), textcoords="offset points",
+                    xytext=((-8, 6) if r["kind"] == "other" else (-8, -4)) if left else (6, -4), ha="right" if left else "left", fontsize=9)
     ax.set_xscale("log")
     ax.set_xlabel("median seconds per question (log scale)\n"
                   "our modes: RX 7600 8 GB GPU; grey: other systems on CPU (Ryzen 5 5600X)")

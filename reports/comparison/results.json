@@ -1,0 +1,404 @@
+{
+  "description": "Comparison of the local modes with similar public systems on the sealed test-3 (900 primary questions) and test-2 (156 labeled). Pre-registered before running. CPU (AMD Ryzen 5 5600X), 4 threads, one question per call, cold. Every model used as released; nothing trained or tuned. Unsupported or failing questions would count as wrong (none occurred). Statistics as in the test-3 harness: conservative 95 % CI = union of paired Newcombe and state-level bootstrap; exact McNemar. References: Jev 1.13 by TypeSafe (via its API) and our modes fast (8B Q8) and medium (4B Q8 think), whose values were reproduced in the same analysis. Per-item predictions are not shipped.",
+  "n_primary": 900,
+  "references": {
+    "Jev": 841,
+    "fast": 782,
+    "medium": 816
+  },
+  "systems": {
+    "julia-1": "Julia-1 (SupersonicLabs/Julia-1 @ a85b127321, 144M)",
+    "laya": "Laya multilingual (convaiinnovations/laya-multilingual @ e4e9ddf2)",
+    "nli-deberta-large": "DeBERTa-v3-large zero-shot (MoritzLaurer/deberta-v3-large-zeroshot-v2.0 @ cf44676c28ba)",
+    "nli-bart-mnli": "BART-large-MNLI zero-shot (facebook/bart-large-mnli @ d7645e127eaf)",
+    "nli-mdeberta": "mDeBERTa-v3 zero-shot, multilingual (MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7 @ b5113eb38ab6)"
+  },
+  "test3": {
+    "julia-1": {
+      "correct": 322,
+      "errors": 0,
+      "error_examples": [],
+      "unanswered": 0,
+      "truncated": 0,
+      "median_s_cpu": 0.056454300007317215,
+      "vs": {
+        "Jev": {
+          "reference_correct": 841,
+          "delta_points": -57.666666666666664,
+          "ci95_conservative": [
+            -61.347517730496456,
+            -53.956043956043956
+          ],
+          "only_reference": 540,
+          "only_model": 21,
+          "mcnemar_p": 1.975378841308149e-131
+        },
+        "fast": {
+          "reference_correct": 782,
+          "delta_points": -51.11111111111112,
+          "ci95_conservative": [
+            -54.845814977973575,
+            -47.361888141828615
+          ],
+          "only_reference": 486,
+          "only_model": 26,
+          "mcnemar_p": 5.655556514979405e-111
+        },
+        "medium": {
+          "reference_correct": 816,
+          "delta_points": -54.888888888888886,
+          "ci95_conservative": [
+            -58.70535714285714,
+            -51.080773606370876
+          ],
+          "only_reference": 529,
+          "only_model": 35,
+          "mcnemar_p": 2.3038251907670578e-114
+        }
+      },
+      "by_level": {
+        "1": "46/170",
+        "2": "136/363",
+        "3": "140/367"
+      },
+      "by_domain": {
+        "factual": "40/100",
+        "numeric": "30/100",
+        "deterministic": "33/100",
+        "sentence": "39/100",
+        "sentiment": "43/100",
+        "subjective_tone": "32/100",
+        "robotic_style": "30/100",
+        "noul_refund": "52/100",
+        "score_urgency": "23/100"
+      }
+    },
+    "laya": {
+      "correct": 462,
+      "errors": 0,
+      "error_examples": [],
+      "unanswered": 0,
+      "truncated": 0,
+      "median_s_cpu": 0.12680649996036664,
+      "vs": {
+        "Jev": {
+          "reference_correct": 841,
+          "delta_points": -42.11111111111111,
+          "ci95_conservative": [
+            -45.93088071348941,
+            -38.12709030100335
+          ],
+          "only_reference": 405,
+          "only_model": 26,
+          "mcnemar_p": 1.388068950359316e-88
+        },
+        "fast": {
+          "reference_correct": 782,
+          "delta_points": -35.555555555555564,
+          "ci95_conservative": [
+            -39.59276018099548,
+            -31.513083048919228
+          ],
+          "only_reference": 373,
+          "only_model": 53,
+          "mcnemar_p": 2.453397253014909e-60
+        },
+        "medium": {
+          "reference_correct": 816,
+          "delta_points": -39.33333333333333,
+          "ci95_conservative": [
+            -43.366778149386846,
+            -35.18518518518518
+          ],
+          "only_reference": 400,
+          "only_model": 46,
+          "mcnemar_p": 1.510969699920219e-71
+        }
+      },
+      "by_level": {
+        "1": "105/170",
+        "2": "186/363",
+        "3": "171/367"
+      },
+      "by_domain": {
+        "factual": "44/100",
+        "numeric": "33/100",
+        "deterministic": "54/100",
+        "sentence": "68/100",
+        "sentiment": "72/100",
+        "subjective_tone": "67/100",
+        "robotic_style": "35/100",
+        "noul_refund": "48/100",
+        "score_urgency": "41/100"
+      }
+    },
+    "nli-deberta-large": {
+      "correct": 374,
+      "errors": 0,
+      "error_examples": [],
+      "unanswered": 0,
+      "truncated": 0,
+      "median_s_cpu": 12.757224300003145,
+      "vs": {
+        "Jev": {
+          "reference_correct": 841,
+          "delta_points": -51.888888888888886,
+          "ci95_conservative": [
+            -55.33869115958668,
+            -48.22141185393392
+          ],
+          "only_reference": 488,
+          "only_model": 21,
+          "mcnemar_p": 1.1139816563442019e-116
+        },
+        "fast": {
+          "reference_correct": 782,
+          "delta_points": -45.333333333333336,
+          "ci95_conservative": [
+            -48.97727272727273,
+            -41.526279754511535
+          ],
+          "only_reference": 441,
+          "only_model": 33,
+          "mcnemar_p": 3.259839945201895e-92
+        },
+        "medium": {
+          "reference_correct": 816,
+          "delta_points": -49.11111111111111,
+          "ci95_conservative": [
+            -52.71873583820612,
+            -45.267251489619355
+          ],
+          "only_reference": 476,
+          "only_model": 34,
+          "mcnemar_p": 8.06207324996936e-101
+        }
+      },
+      "by_level": {
+        "1": "49/170",
+        "2": "161/363",
+        "3": "164/367"
+      },
+      "by_domain": {
+        "factual": "26/100",
+        "numeric": "33/100",
+        "deterministic": "16/100",
+        "sentence": "52/100",
+        "sentiment": "64/100",
+        "subjective_tone": "42/100",
+        "robotic_style": "30/100",
+        "noul_refund": "40/100",
+        "score_urgency": "71/100"
+      }
+    },
+    "nli-bart-mnli": {
+      "correct": 358,
+      "errors": 0,
+      "error_examples": [],
+      "unanswered": 0,
+      "truncated": 0,
+      "median_s_cpu": 0.9503026999882422,
+      "vs": {
+        "Jev": {
+          "reference_correct": 841,
+          "delta_points": -53.666666666666664,
+          "ci95_conservative": [
+            -57.07964601769911,
+            -50.112612612612615
+          ],
+          "only_reference": 491,
+          "only_model": 8,
+          "mcnemar_p": 1.1193309781534257e-133
+        },
+        "fast": {
+          "reference_correct": 782,
+          "delta_points": -47.111111111111114,
+          "ci95_conservative": [
+            -50.79365079365079,
+            -43.39622641509434
+          ],
+          "only_reference": 447,
+          "only_model": 23,
+          "mcnemar_p": 4.4454681794734233e-103
+        },
+        "medium": {
+          "reference_correct": 816,
+          "delta_points": -50.888888888888886,
+          "ci95_conservative": [
+            -54.587688734030195,
+            -47.07787411161856
+          ],
+          "only_reference": 489,
+          "only_model": 31,
+          "mcnemar_p": 4.7714117250353364e-107
+        }
+      },
+      "by_level": {
+        "1": "56/170",
+        "2": "154/363",
+        "3": "148/367"
+      },
+      "by_domain": {
+        "factual": "62/100",
+        "numeric": "34/100",
+        "deterministic": "49/100",
+        "sentence": "36/100",
+        "sentiment": "44/100",
+        "subjective_tone": "30/100",
+        "robotic_style": "30/100",
+        "noul_refund": "38/100",
+        "score_urgency": "35/100"
+      }
+    },
+    "nli-mdeberta": {
+      "correct": 353,
+      "errors": 0,
+      "error_examples": [],
+      "unanswered": 0,
+      "truncated": 0,
+      "median_s_cpu": 4.164648700039834,
+      "vs": {
+        "Jev": {
+          "reference_correct": 841,
+          "delta_points": -54.222222222222214,
+          "ci95_conservative": [
+            -57.692307692307686,
+            -50.779510022271715
+          ],
+          "only_reference": 493,
+          "only_model": 5,
+          "mcnemar_p": 6.1761728004571356e-139
+        },
+        "fast": {
+          "reference_correct": 782,
+          "delta_points": -47.66666666666667,
+          "ci95_conservative": [
+            -51.681614349775785,
+            -43.66812227074236
+          ],
+          "only_reference": 473,
+          "only_model": 44,
+          "mcnemar_p": 7.273826776081925e-92
+        },
+        "medium": {
+          "reference_correct": 816,
+          "delta_points": -51.444444444444436,
+          "ci95_conservative": [
+            -54.983202687569985,
+            -47.843942521304214
+          ],
+          "only_reference": 479,
+          "only_model": 16,
+          "mcnemar_p": 9.829601637403963e-120
+        }
+      },
+      "by_level": {
+        "1": "60/170",
+        "2": "150/363",
+        "3": "143/367"
+      },
+      "by_domain": {
+        "factual": "52/100",
+        "numeric": "38/100",
+        "deterministic": "48/100",
+        "sentence": "38/100",
+        "sentiment": "46/100",
+        "subjective_tone": "33/100",
+        "robotic_style": "34/100",
+        "noul_refund": "38/100",
+        "score_urgency": "26/100"
+      }
+    }
+  },
+  "test2": {
+    "references": {
+      "Jev": 144,
+      "fast": 132
+    },
+    "julia-1": {
+      "156": 62,
+      "138": 56,
+      "120": 47,
+      "vs": {
+        "Jev": {
+          "only_reference": 87,
+          "only_model": 5,
+          "mcnemar_p": 2.104348366907826e-20
+        },
+        "fast": {
+          "only_reference": 79,
+          "only_model": 9,
+          "mcnemar_p": 4.152441283052301e-15
+        }
+      }
+    },
+    "laya": {
+      "156": 86,
+      "138": 80,
+      "120": 67,
+      "vs": {
+        "Jev": {
+          "only_reference": 60,
+          "only_model": 2,
+          "mcnemar_p": 8.474124180146703e-16
+        },
+        "fast": {
+          "only_reference": 52,
+          "only_model": 6,
+          "mcnemar_p": 3.158189820773316e-10
+        }
+      }
+    },
+    "nli-deberta-large": {
+      "156": 59,
+      "138": 53,
+      "120": 47,
+      "vs": {
+        "Jev": {
+          "only_reference": 91,
+          "only_model": 6,
+          "mcnemar_p": 1.3331565348493776e-20
+        },
+        "fast": {
+          "only_reference": 81,
+          "only_model": 8,
+          "mcnemar_p": 2.5248620379419315e-16
+        }
+      }
+    },
+    "nli-bart-mnli": {
+      "156": 57,
+      "138": 51,
+      "120": 45,
+      "vs": {
+        "Jev": {
+          "only_reference": 93,
+          "only_model": 6,
+          "mcnemar_p": 3.773842968353187e-21
+        },
+        "fast": {
+          "only_reference": 84,
+          "only_model": 9,
+          "mcnemar_p": 2.1688614442545304e-16
+        }
+      }
+    },
+    "nli-mdeberta": {
+      "156": 55,
+      "138": 49,
+      "120": 43,
+      "vs": {
+        "Jev": {
+          "only_reference": 90,
+          "only_model": 1,
+          "mcnemar_p": 7.431700815906108e-26
+        },
+        "fast": {
+          "only_reference": 85,
+          "only_model": 8,
+          "mcnemar_p": 2.2644944585064495e-17
+        }
+      }
+    }
+  }
+}

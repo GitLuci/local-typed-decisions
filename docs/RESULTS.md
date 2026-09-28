@@ -243,30 +243,33 @@ cause more model switches (5–12 s each); that scenario was not measured.
 
 ## 5. Comparison with similar projects
 
-Same sealed sets, same gold, same scoring; sorted by test-3 accuracy (rows still pending on test-3 last, by test-2). Rows marked *pending* are still
-running. The numbers for the other systems are recorded in `reports/comparison.json` (which `scripts/make_charts.py`
-reads); their per-system run reports are not in this repository yet. Nothing here is estimated. Latency is median seconds per question on the stated hardware.
+Same sealed sets, same gold, same scoring; sorted by test-3 accuracy. The numbers for the other systems come from
+a pre-registered comparison run; its aggregate results (per level, per domain, paired CIs against Jev, `fast` and
+`medium`, test-2 subsets) are in [`reports/comparison/results.md`](../reports/comparison/results.md) and `results.json`, summarised in
+`reports/comparison.json` (which `scripts/make_charts.py` reads). Per-item predictions are not shipped. Latency is
+median seconds per question on the stated hardware.
 
-| system | type | test-2 /156 | test-3 /900 | median s/question | hardware |
-|---|---|---:|---:|---:|---|
-| Jev 1.13 by TypeSafe (baseline, via its API) | hosted typed-decision API | 144 | 841 | network | remote |
-| local-typed-decisions `routed` | per-domain mode | 145 (measured) | 829 (post hoc) | 0.50 (mean 4.5) | RX 7600 8 GB |
-| local-typed-decisions `medium` (Qwen3-4B Q8_0, think ≤ 1024) | local LLM, thinking + readout | 141 | 816 | 7.3 | RX 7600 8 GB |
-| local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 144 | 804 | 11.6 | RX 7600 8 GB |
-| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 132 | 782 | 0.48 | RX 7600 8 GB |
-| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 123 | 726 | 0.29 | RX 7600 8 GB |
-| Laya multilingual (~322M, decision heads, third-party) | small model, typed heads | 86 | 462 | 0.13 | CPU (Ryzen 5 5600X) |
-| BART-large-MNLI zero-shot classifier | zero-shot NLI | 57 | 358 | 0.95 | CPU (Ryzen 5 5600X) |
-| Julia-1 (144M encoder + decision head, third-party) | small encoder, typed API | 62 | 322 | 0.06 | CPU (Ryzen 5 5600X) |
-| DeBERTa-v3-large zero-shot classifier | zero-shot NLI | 59 | *pending* | *pending* | CPU (Ryzen 5 5600X) |
-| mDeBERTa-v3 zero-shot classifier (multilingual) | zero-shot NLI | 55 | *pending* | *pending* | CPU (Ryzen 5 5600X) |
+| system | type | test-3 /900 | Δ vs Jev on test-3 [95 % CI] | test-2 /156 | median s/question | hardware |
+|---|---|---:|---|---:|---:|---|
+| Jev 1.13 by TypeSafe (baseline, via its API) | hosted typed-decision API | 841 | — | 144 | network | remote |
+| local-typed-decisions `routed` | per-domain mode | 829 (post hoc) | −1.3 (no CI: post hoc) | 145 (measured) | 0.50 (mean 4.5) | RX 7600 8 GB |
+| local-typed-decisions `medium` (Qwen3-4B Q8_0, think ≤ 1024) | local LLM, thinking + readout | 816 | −2.8 [−5.0; −0.6] | 141 | 7.3 | RX 7600 8 GB |
+| local-typed-decisions `slow` (Qwen3-8B Q8_0, think ≤ 128) | local LLM, thinking + readout | 804 | −4.1 [−6.2; −2.1] | 144 | 11.6 | RX 7600 8 GB |
+| local-typed-decisions `fast` (Qwen3-8B Q8_0) | local LLM, letter readout | 782 | −6.6 [−8.9; −4.3] | 132 | 0.48 | RX 7600 8 GB |
+| local-typed-decisions `ultra-fast` (Qwen3-4B Q8_0) | local LLM, letter readout | 726 | −12.8 [−15.6; −10.0] | 123 | 0.29 | RX 7600 8 GB |
+| Laya multilingual (~322M, decision heads, third-party) | small model, typed heads | 462 | −42.1 [−45.9; −38.1] | 86 | 0.13 | CPU (Ryzen 5 5600X) |
+| DeBERTa-v3-large zero-shot classifier | zero-shot NLI | 374 | −51.9 [−55.3; −48.2] | 59 | 12.8 | CPU (Ryzen 5 5600X) |
+| BART-large-MNLI zero-shot classifier | zero-shot NLI | 358 | −53.7 [−57.1; −50.1] | 57 | 0.95 | CPU (Ryzen 5 5600X) |
+| mDeBERTa-v3 zero-shot classifier (multilingual) | zero-shot NLI | 353 | −54.2 [−57.7; −50.8] | 55 | 4.2 | CPU (Ryzen 5 5600X) |
+| Julia-1 (144M encoder + decision head, third-party) | small encoder, typed API | 322 | −57.7 [−61.3; −54.0] | 62 | 0.06 | CPU (Ryzen 5 5600X) |
 
 The other systems were run by the maintainers on CPU (AMD Ryzen 5 5600X), pre-registered, on the same sealed sets
-with the same gold and scoring; the Jev, `medium` and `fast` reference values were reproduced in the same run. Every
-measured system differs from Jev, `fast` and `medium` with McNemar p < 1e-60 on test-3. mDeBERTa-v3 was added
-because the test-3 texts are mostly Portuguese. Their latencies are CPU numbers and are not directly comparable with
-our GPU numbers. **GLiClass was not included:** it follows the same zero-shot label-matching paradigm as the NLI
-classifiers, has no `Score` or `Noul` equivalent, and needs a third-party library.
+with the same gold and scoring, each model as released; the Jev, `medium` and `fast` reference values were reproduced
+in the same analysis. Every one differs from Jev, `fast` and `medium` with McNemar p < 1e-60 on test-3, with no
+errors, unanswered or truncated questions. mDeBERTa-v3 was added because the test-3 texts are mostly Portuguese.
+Their latencies are CPU numbers and are not directly comparable with our GPU numbers. **GLiClass was not included:**
+it follows the same zero-shot label-matching paradigm as the NLI classifiers, has no `Score` or `Noul` equivalent,
+and needs a third-party library.
 
 test-2 numbers for the local modes are from the CPU engine (llama-cpp-python) except `routed`, which was measured
 with the released GPU runtime; on the GPU engine `ultra-fast` scores 120. The `routed` test-3 number is combined
