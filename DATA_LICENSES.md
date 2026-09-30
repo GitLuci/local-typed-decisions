@@ -74,3 +74,59 @@ The GGUF files (Qwen3-4B and Qwen3-8B, Q8_0 and Q4_K_M, quantized without an imp
 `Qwen/Qwen3-4B` and `Qwen/Qwen3-8B`, released by the Qwen team under Apache-2.0, and are distributed on the Hugging
 Face Hub under the same license. Tokenizer files are downloaded from the official Qwen repositories at pinned
 revisions.
+
+## 6. test-4 sources — aggregates only, no texts shipped
+
+test-4 draws 10 000 items from the 40 public datasets below; items were built, sealed and run in the development
+repository. **This repository ships no test-4 items, no per-item predictions and no reasoning traces — only aggregate
+numbers** (`reports/test-4/results.json`, produced by `scripts/export_test4.py`). The column *texts redistributable*
+records whether the dataset's stated terms allow redistributing its texts; for the sources marked **no** (no licence
+stated, non-commercial, academic-only, or tweets under platform terms) only ids and a rebuild script are kept in the
+development repository. Licences as stated on the dataset card or the original release, checked 2026-09-30.
+
+| source (as used) | dataset | language | items | licence as stated | texts redistributable |
+|---|---|---|---:|---|---|
+| banking77 | [`legacy-datasets/banking77`](https://huggingface.co/datasets/legacy-datasets/banking77) | en | 300 | CC-BY-4.0 | yes |
+| clinc150 | [`clinc/clinc_oos`](https://huggingface.co/datasets/clinc/clinc_oos) | en | 200 | CC-BY-3.0 | yes |
+| massive-pt | [`mteb/amazon_massive_intent`](https://huggingface.co/datasets/mteb/amazon_massive_intent) | pt-PT | 500 | CC-BY-4.0 | yes |
+| sst2 | [`stanfordnlp/sst2`](https://huggingface.co/datasets/stanfordnlp/sst2) | en | 150 | unknown | **no** |
+| sst5 | [`SetFit/sst5`](https://huggingface.co/datasets/SetFit/sst5) | en | 200 | unknown | **no** |
+| sst2-pt (MT) | [`PORTULAN/extraglue`](https://huggingface.co/datasets/PORTULAN/extraglue) | pt-PT | 150 | MIT | yes |
+| b2w-nota | [`ruanchaves/b2w-reviews01`](https://huggingface.co/datasets/ruanchaves/b2w-reviews01) | pt-BR | 400 | CC BY-NC-SA 4.0 (original release) | **no** |
+| tweetsentbr | [`eduagarcia/tweetsentbr_fewshot`](https://huggingface.co/datasets/eduagarcia/tweetsentbr_fewshot) | pt-BR | 300 | none stated | **no** |
+| goemotions | [`google-research-datasets/go_emotions`](https://huggingface.co/datasets/google-research-datasets/go_emotions) | en | 300 | Apache-2.0 | **no** (see §3) |
+| tweeteval-emo | [`cardiffnlp/tweet_eval`](https://huggingface.co/datasets/cardiffnlp/tweet_eval) | en | 300 | unknown | **no** |
+| goemotions-pt (MT) | [`antoniomenezes/go_emotions_ptbr`](https://huggingface.co/datasets/antoniomenezes/go_emotions_ptbr) | pt-BR | 200 | Apache-2.0 | **no** (see §3) |
+| civil | [`google/civil_comments`](https://huggingface.co/datasets/google/civil_comments) | en | 300 | CC0-1.0 | yes |
+| tweeteval-hate | [`cardiffnlp/tweet_eval`](https://huggingface.co/datasets/cardiffnlp/tweet_eval) | en | 100 | unknown | **no** |
+| tweeteval-off | [`cardiffnlp/tweet_eval`](https://huggingface.co/datasets/cardiffnlp/tweet_eval) | en | 100 | unknown | **no** |
+| hatebr | [`eduagarcia/portuguese_benchmark`](https://huggingface.co/datasets/eduagarcia/portuguese_benchmark) | pt-BR | 300 | academic/research use only | **no** |
+| toldbr | [`JAugusto97/ToLD-Br`](https://huggingface.co/datasets/JAugusto97/ToLD-Br) | pt-BR | 250 | CC BY-SA 4.0 (tweets) | **no** |
+| fortuna | [`eduagarcia/portuguese_benchmark`](https://huggingface.co/datasets/eduagarcia/portuguese_benchmark) | pt | 150 | unknown | **no** |
+| assin2-rte | [`nilc-nlp/assin2`](https://huggingface.co/datasets/nilc-nlp/assin2) | pt-BR | 350 | unknown | **no** |
+| assin-rte | [`nilc-nlp/assin`](https://huggingface.co/datasets/nilc-nlp/assin) | pt-PT | 200 | unknown | **no** |
+| faquad-nli | [`ruanchaves/faquad-nli`](https://huggingface.co/datasets/ruanchaves/faquad-nli) | pt-BR | 150 | CC-BY-4.0 | yes |
+| rte-pt (MT) | [`PORTULAN/extraglue`](https://huggingface.co/datasets/PORTULAN/extraglue) | pt-PT | 150 | MIT | yes |
+| snli | [`stanfordnlp/snli`](https://huggingface.co/datasets/stanfordnlp/snli) | en | 300 | CC-BY-SA-4.0 | yes |
+| mnli | [`nyu-mll/multi_nli`](https://huggingface.co/datasets/nyu-mll/multi_nli) | en | 150 | CC-BY/SA, MIT | yes |
+| boolq | [`google/boolq`](https://huggingface.co/datasets/google/boolq) | en | 400 | CC-BY-SA-3.0 | yes |
+| boolq-pt (MT) | [`PORTULAN/extraglue`](https://huggingface.co/datasets/PORTULAN/extraglue) | pt-PT | 400 | MIT | yes |
+| arc | [`allenai/ai2_arc`](https://huggingface.co/datasets/allenai/ai2_arc) | en | 250 | CC-BY-SA-4.0 | yes |
+| csqa | [`tau/commonsense_qa`](https://huggingface.co/datasets/tau/commonsense_qa) | en | 200 | MIT | yes |
+| mmlu | [`cais/mmlu`](https://huggingface.co/datasets/cais/mmlu) | en | 300 | MIT | yes |
+| enem | [`maritaca-ai/enem`](https://huggingface.co/datasets/maritaca-ai/enem) | pt-BR | 250 | Apache-2.0 | yes |
+| bluex | [`portuguese-benchmark-datasets/BLUEX`](https://huggingface.co/datasets/portuguese-benchmark-datasets/BLUEX) | pt-BR | 200 | none stated | **no** |
+| oab | [`eduagarcia/oab_exams`](https://huggingface.co/datasets/eduagarcia/oab_exams) | pt-BR | 200 | MIT (original release) | yes |
+| mmmlu-pt | [`openai/MMMLU`](https://huggingface.co/datasets/openai/MMMLU) | pt-BR | 100 | MIT | yes |
+| agnews | [`fancyzhx/ag_news`](https://huggingface.co/datasets/fancyzhx/ag_news) | en | 250 | non-commercial | **no** |
+| dbpedia | [`fancyzhx/dbpedia_14`](https://huggingface.co/datasets/fancyzhx/dbpedia_14) | en | 250 | CC-BY-SA-3.0 | yes |
+| b2w-categoria | [`ruanchaves/b2w-reviews01`](https://huggingface.co/datasets/ruanchaves/b2w-reviews01) | pt-BR | 400 | CC BY-NC-SA 4.0 (original release) | **no** |
+| stsb | [`sentence-transformers/stsb`](https://huggingface.co/datasets/sentence-transformers/stsb) | en | 300 | none stated | **no** |
+| assin2-sts | [`nilc-nlp/assin2`](https://huggingface.co/datasets/nilc-nlp/assin2) | pt-BR | 300 | unknown | **no** |
+| assin-sts | [`nilc-nlp/assin`](https://huggingface.co/datasets/nilc-nlp/assin) | pt-PT | 200 | unknown | **no** |
+| sms | [`ucirvine/sms_spam`](https://huggingface.co/datasets/ucirvine/sms_spam) | en | 300 | CC BY 4.0 (UCI repository) | yes |
+| sms-pt (MT) | [`dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset`](https://huggingface.co/datasets/dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset) | pt | 200 | GPL | yes |
+
+20 of the 40 sources are marked **no**. (MT) = machine-translated Portuguese. ToLD-Br is fetched from its GitHub
+release (`JAugusto97/ToLD-Br`), not from the Hugging Face card linked above. Attribution: each dataset's own citation, as given on its card.
+Because all 40 datasets are public, they may be in the pretraining data of any evaluated system.

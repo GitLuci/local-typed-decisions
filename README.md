@@ -51,6 +51,44 @@ including 5 model switches ([RESULTS §4](docs/RESULTS.md#4-routed-mode)).
 
 ## Results
 
+### test-4: broad stress test (10 000 items, 40 public datasets)
+
+The rigorous baseline: 10 000 items from 40 public, already-labelled datasets in 10 task groups (intent, sentiment,
+emotion, toxicity, NLI, yes/no QA, multiple choice, topic, similarity, spam), EN 4 650 / PT 5 350, gold from the
+datasets, sealed by hash before any system ran. Jev, `ultra-fast` and `fast` ran on all 10 000; `medium` and `slow`
+on a stratified 2 000-item subsample nested in them. Only aggregates are published (several sources do not allow
+redistribution of their texts; see [DATA_LICENSES](DATA_LICENSES.md#6-test-4-sources)). Full numbers:
+[`reports/test-4/results.json`](reports/test-4/results.json). **No local arm reaches Jev level on test-4.**
+
+| system | items | accuracy | Jev − arm, same items (95 % CI) | median s/item |
+|---|---:|---:|---|---:|
+| Jev 1.13 (API) | 10 000 | **79.2 %** | — | network |
+| `medium` (4B Q8, think ≤ 1024) | 2 000 | 73.5 % | +6.1 [+4.4; +7.8] | 9.3 |
+| `slow` (8B Q8, think ≤ 128) | 2 000 | 73.0 % | +6.5 [+4.7; +8.4] | 12.2 |
+| routed (test-3 routes)¹ | 2 000 | 72.4 % | +7.1 [+5.3; +9.0] | 11.1 |
+| `fast` (8B Q8) | 10 000 | 69.5 % | +9.6 [+8.8; +10.5] | 0.45 |
+| `ultra-fast` (4B Q8) | 10 000 | 67.5 % | +11.7 [+10.8; +12.6] | 0.26 |
+
+McNemar p ≈ 0 for every row. On the 2 000 subsample Jev scores 79.5 %.
+
+![test-4 accuracy](docs/img/test4_accuracy.png)
+
+![test-4 per group](docs/img/test4_per_group.png)
+
+![test-4 accuracy vs latency](docs/img/test4_accuracy_vs_latency.png)
+
+- **Where Jev leads clearly** (same items as `medium`/`slow`): multiple choice (+10 to +17 points), NLI (+6 to +12),
+  similarity (+15 to +17) and spam. In emotion, intent, sentiment, yes/no QA and toxicity, `medium` and `slow` are
+  within noise of Jev at the group level (per-group CIs include 0 on 160–300 items each). The per-group chart
+  mixes the 10 000 set (solid) and the 2 000 subsample (hatched); compare hatched bars with Jev only through the
+  paired numbers in `results.json`.
+- **Thinking buys little here:** `medium`/`slow` gain +2.7/+2.2 points over `fast` on the same items at 21–27× the
+  time per item.
+- **Language:** the gap to Jev is similar in EN and PT (`fast`: +8.9 and +10.2 points); machine-translated PT is
+  easier than native PT for every system ([chart](docs/img/test4_languages.png)).
+- ¹ The routed map was chosen per test-3 domain and is applied to the closest test-4 group; it **does not transfer**
+  (below `medium`).
+
 ### test-3: stress test with independent gold (900 sealed questions)
 
 9 domains × 100 questions, difficulty levels N1–N3 fixed before any model ran, gold independent of Jev and of the
@@ -214,7 +252,8 @@ python -m pytest -q          # unit tests with simulated HTTP/processes; no weig
   set for the router).
 - test-3 ships with the 44 GoEmotions texts removed (licence, see [DATA_LICENSES.md](DATA_LICENSES.md)); restore
   them with `python scripts/fetch_goemotions.py` (pinned upstream file, verified against the sealed hash).
-- Charts: `python scripts/make_charts.py` (needs matplotlib) regenerates `docs/img/*.png` from `reports/`.
+- Charts: `python scripts/make_charts.py` (needs matplotlib) regenerates `docs/img/*.png` from `reports/`. The test-4
+  aggregates in `reports/test-4/results.json` come from `scripts/export_test4.py` (items are not shipped).
 - Reproduce test-3 arms: `python scripts/test3_seal.py --check`, then `scripts/test3_arm.py` per arm and
   `scripts/test3_harness.py analyze` (see the script help). test-2 runners: `scripts/test2_*.py`. Runtime
   measurement: `scripts/runtime_measure.py`. Building the GGUF files from the Qwen safetensors:

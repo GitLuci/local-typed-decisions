@@ -275,7 +275,66 @@ test-2 numbers for the local modes are from the CPU engine (llama-cpp-python) ex
 with the released GPU runtime; on the GPU engine `ultra-fast` scores 120. The `routed` test-3 number is combined
 from the four modes with a map chosen on test-3, so it is optimistic.
 
-## 6. Caveats
+## 6. test-4 (10 000 items, 40 public datasets)
+
+Broad stress test with gold from 40 public, already-labelled datasets (EN 4 650 / PT 5 350; 1 100 PT items are
+machine-translated). Composition, conversion decisions and the seal (`items_sha256` in `results.json`) were fixed
+before any system ran. Jev, `ultra-fast` and `fast` ran on all 10 000 items; `medium`, `slow` and routed on a
+stratified 2 000-item subsample (20 % of every source, nested). Only aggregates are published
+([DATA_LICENSES §6](../DATA_LICENSES.md#6-test-4-sources)); source: [`reports/test-4/results.json`](../reports/test-4/results.json).
+
+![test-4 accuracy](img/test4_accuracy.png)
+
+### By task group (accuracy %, sorted by Jev)
+
+| group | items (10 000) | Jev 1.13 (API) | medium | slow | routed (test-3 routes) | fast | ultra-fast |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| spam | 500 | 96.6 | 79.0 | 94.0 | 92.0 | 89.2 | 71.8 |
+| intent | 1000 | 93.4 | 91.0 | 93.0 | 88.0 | 88.2 | 81.1 |
+| yes/no QA | 800 | 89.9 | 85.0 | 86.9 | 86.9 | 84.8 | 82.4 |
+| multiple choice | 1500 | 87.9 | 81.7 | 75.3 | 75.3 | 72.7 | 68.7 |
+| NLI | 1300 | 86.6 | 79.6 | 74.2 | 74.2 | 65.1 | 69.0 |
+| toxicity | 1200 | 78.8 | 75.8 | 76.7 | 75.0 | 74.8 | 69.0 |
+| topic | 900 | 77.6 | 73.9 | 72.2 | 71.7 | 73.2 | 72.8 |
+| sentiment | 1200 | 66.0 | 59.2 | 60.4 | 60.4 | 59.9 | 60.9 |
+| emotion | 800 | 61.6 | 65.6 | 64.4 | 64.4 | 57.1 | 59.0 |
+| similarity | 800 | 51.2 | 36.2 | 38.1 | 40.6 | 35.0 | 38.0 |
+| *EN* | 4650 | 82.5 | 76.1 | 77.7 | 76.7 | 73.6 | 70.4 |
+| *PT (all)* | 5350 | 76.3 | 71.1 | 69.0 | 68.7 | 66.1 | 64.9 |
+| *PT native* | 4250 | 74.6 | 68.7 | 66.7 | 66.8 | 64.5 | 62.9 |
+| *PT machine-translated* | 1100 | 82.8 | 80.5 | 77.7 | 75.9 | 72.1 | 72.5 |
+| *Choice* | 5350 | 80.1 | 75.5 | 73.6 | 72.5 | 70.1 | 68.1 |
+| *Noul* | 3450 | 87.6 | 83.0 | 83.2 | 82.3 | 79.4 | 75.3 |
+| *Score (exact level)* | 1200 | 50.9 | 36.7 | 41.7 | 43.3 | 38.8 | 42.1 |
+
+`medium`, `slow` and routed columns are on the 2 000 subsample. Per-group paired differences against Jev on the
+same items are in `results.json` (`paired_vs_jev`); on the subsample, Jev leads with a CI excluding 0 in multiple
+choice, NLI, similarity and spam, while in emotion, intent, sentiment, yes/no QA and toxicity `medium`/`slow` are
+within noise of Jev per group.
+
+![test-4 per group](img/test4_per_group.png)
+
+![test-4 by language](img/test4_languages.png)
+
+### Accuracy vs latency (same 2 000 items)
+
+| system | accuracy on the 2 000 | median s/item | Score mean level error |
+|---|---:|---:|---:|
+| Jev 1.13 (API) | 79.5 | network | 0.596 |
+| medium | 73.5 | 9.31 | 0.829 |
+| slow | 73.0 | 12.179 | 0.796 |
+| routed (test-3 routes) | 72.4 | 11.119 | 0.821 |
+| fast | 70.8 | 0.449 | 0.892 |
+| ultra-fast | 67.8 | 0.258 | 0.754 |
+
+![test-4 accuracy vs latency](img/test4_accuracy_vs_latency.png)
+
+Routed applies the test-3 per-domain map to the closest test-4 group; it does not transfer (below `medium`). Options
+are capped at 26 per question (letter readout): the intent sets show 10 candidates (gold + 9 seeded), GoEmotions uses
+the Ekman grouping. The local arms leave some unlikely option letters outside the top-20 of the first position
+(mostly on 10–14-option items); the gold letter was missing in 6 of 24 000 local answers, so accuracy is essentially unaffected.
+
+## 7. Caveats
 
 1. **Authored-item gold has no human audit.** The judged stratum (526 of 900) is validated by agreement between two
    blind LLM labelers (97.4 %, κ 0.973 on the first package; 35/35 on the second) and by an LLM adjudicator
